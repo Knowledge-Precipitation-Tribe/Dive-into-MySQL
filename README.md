@@ -1,2 +1,2 @@
-# Dive-into-MySQL
-Dive-into-MySQL
+# Initial page
+
