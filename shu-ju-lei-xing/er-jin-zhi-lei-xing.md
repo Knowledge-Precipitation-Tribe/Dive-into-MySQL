@@ -4,7 +4,7 @@ MySQL 中的二进制字符串有 **BIT**、**BINARY**、**VARBINARY**、**TINYB
   
 下表中列出了 MySQL 中的二进制数据类型，括号中的`M`表示可以为其指定长度。
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ### BIT 类型
 

@@ -10,13 +10,13 @@ SHOW DATABASES [LIKE '数据库名'];
 
 ### 查看所有数据库
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 ### 使用LIKE
 
 我们首先创建三个数据库分别为：test\_db, db\_test, db\_test\_db。
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 #### 查看与test\_db完全匹配的数据库
 
@@ -24,7 +24,7 @@ SHOW DATABASES [LIKE '数据库名'];
 SHOW DATABASES LIKE 'test_db';
 ```
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 #### 查看名字中包含test的数据库
 
@@ -36,7 +36,7 @@ SHOW DATABASES LIKE '%test%';
 在mysql中使用%来匹配任意字符
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 #### 查看以db开头的数据库
 
