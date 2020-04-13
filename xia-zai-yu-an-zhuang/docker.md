@@ -2,7 +2,7 @@
 
 对Docker不太熟悉的朋友可以看此文档：[动手学Docker](https://docs.docker.knowledge-precipitation.site/)
 
-这里我们使用Docker-Compose的方式安装Docker
+这里我们使用Docker-Compose的方式安装MySQL
 
 {% code title="docker-compose.yml" %}
 ```text
