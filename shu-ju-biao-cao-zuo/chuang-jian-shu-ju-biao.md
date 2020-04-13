@@ -16,7 +16,7 @@ CREATE TABLE <表名> (<列名1><类型>, <列名2><类型>, ...)
 
 创建员工表 tb\_emp1，结构如下表所示。
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 ```text
 CREATE TABLE tb_emp1(
@@ -27,7 +27,7 @@ CREATE TABLE tb_emp1(
 );
 ```
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 使用命令查看数据表
 
@@ -35,7 +35,7 @@ CREATE TABLE tb_emp1(
 SHOW TABLES;
 ```
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 查看表的结构
 
@@ -43,7 +43,7 @@ SHOW TABLES;
 DESCRIBE tb_emp1;
 ```
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 其中，各个字段的含义如下：
 
@@ -51,4 +51,8 @@ DESCRIBE tb_emp1;
 * Key：表示该列是否已编制索引。PRI 表示该列是表主键的一部分，UNI 表示该列是 UNIQUE 索引的一部分，MUL 表示在列中某个给定值允许出现多次。
 * Default：表示该列是否有默认值，如果有，值是多少。
 * Extra：表示可以获取的与给定列有关的附加信息，如 AUTO\_INCREMENT 等。
+
+在DataGrip中也可以快捷查看表结构
+
+![](../.gitbook/assets/image%20%288%29.png)
 

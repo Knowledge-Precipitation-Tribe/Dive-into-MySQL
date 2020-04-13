@@ -30,4 +30,6 @@
 ## 数据表操作
 
 * [创建数据表](shu-ju-biao-cao-zuo/chuang-jian-shu-ju-biao.md)
+* [修改数据表](shu-ju-biao-cao-zuo/xiu-gai-shu-ju-biao.md)
+* [删除数据表](shu-ju-biao-cao-zuo/shan-chu-shu-ju-biao.md)
 
