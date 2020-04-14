@@ -35,5 +35,9 @@
 * [主键](shu-ju-biao-cao-zuo/zhu-jian.md)
 * [外键约束](shu-ju-biao-cao-zuo/wai-jian-yue-shu.md)
 * [唯一约束](shu-ju-biao-cao-zuo/wei-yi-yue-shu.md)
+* [检查约束](shu-ju-biao-cao-zuo/jian-cha-yue-shu.md)
+* [默认值](shu-ju-biao-cao-zuo/mo-ren-zhi.md)
+* [非空约束](shu-ju-biao-cao-zuo/fei-kong-yue-shu.md)
+* [查看表中的约束](shu-ju-biao-cao-zuo/cha-kan-biao-zhong-de-yue-shu.md)
 * [常见问题](chang-jian-wen-ti.md)
 
