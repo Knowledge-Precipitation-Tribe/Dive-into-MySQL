@@ -20,7 +20,7 @@ CREATE TABLE tb_dept2(
 );
 ```
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 {% hint style="info" %}
 UNIQUE 和 PRIMARY KEY 的区别：一个表可以有多个字段声明为 UNIQUE，但只能有一个 PRIMARY KEY 声明；声明为 PRIMAY KEY 的列不允许有空值，但是声明为 UNIQUE 的字段允许空值的存在。
@@ -40,7 +40,7 @@ ALTER TABLE <数据表名> ADD CONSTRAINT <唯一约束名> UNIQUE(<列名>);
 ALTER TABLE tb_dept1 ADD CONSTRAINT unique_name UNIQUE(name);
 ```
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ### 删除唯一约束
 
@@ -56,5 +56,5 @@ ALTER TABLE <表名> DROP INDEX <唯一约束名>;
 ALTER TABLE tb_dept1 DROP INDEX unique_name;
 ```
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 

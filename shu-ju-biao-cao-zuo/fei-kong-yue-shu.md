@@ -20,7 +20,7 @@ CREATE TABLE tb_dept4(
 );
 ```
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 ##  在修改表时添加非空约束
 
@@ -36,7 +36,7 @@ ALTER TABLE <数据表名> CHANGE COLUMN <字段名> <字段名> <数据类型> 
 ALTER TABLE tb_dept4 CHANGE COLUMN location location VARCHAR(50) NOT NULL;
 ```
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ##  删除非空约束
 
@@ -52,5 +52,5 @@ ALTER TABLE <数据表名> CHANGE COLUMN <字段名> <字段名> <数据类型> 
 ALTER TABLE tb_dept4 CHANGE COLUMN location location VARCHAR(50) NULL;
 ```
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 

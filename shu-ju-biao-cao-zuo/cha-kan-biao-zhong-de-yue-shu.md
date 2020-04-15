@@ -19,5 +19,5 @@ CREATE TABLE tb_emp8(
 );
 ```
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2857%29.png)
 
