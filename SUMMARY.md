@@ -39,5 +39,9 @@
 * [默认值](shu-ju-biao-cao-zuo/mo-ren-zhi.md)
 * [非空约束](shu-ju-biao-cao-zuo/fei-kong-yue-shu.md)
 * [查看表中的约束](shu-ju-biao-cao-zuo/cha-kan-biao-zhong-de-yue-shu.md)
+
+## 查询操作
+
+* [查询数据](cha-xun-cao-zuo/cha-xun-shu-ju.md)
 * [常见问题](chang-jian-wen-ti.md)
 
