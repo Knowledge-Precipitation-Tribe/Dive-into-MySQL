@@ -4,7 +4,7 @@
 
 下表中列出了 MySQL 中的字符串数据类型，括号中的`M`表示可以为其指定长度。
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 VARCHAR 和 TEXT 类型是变长类型，其存储需求取决于列值的实际长度。
 
@@ -20,7 +20,7 @@ VARCHAR\(M\) 是长度可变的字符串，M 表示最大列的长度，M 的范
 
 【实例】下面将不同的字符串保存到 CHAR\(4\) 和 VARCHAR\(4\) 列，说明 CHAR 和 VARCHAR 之间的差别，如下表所示。
 
-![](../.gitbook/assets/image%20%2862%29.png)
+![](../.gitbook/assets/image%20%2869%29.png)
 
 对比结果可以看到，CHAR\(4\) 定义了固定长度为 4 的列，无论存入的数据长度为多少，所占用的空间均为 4 个字节。VARCHAR\(4\) 定义的列所占的字节数为实际长度加 1。
 

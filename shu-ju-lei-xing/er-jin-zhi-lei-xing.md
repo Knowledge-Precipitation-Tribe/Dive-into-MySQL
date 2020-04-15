@@ -4,7 +4,7 @@ MySQL 中的二进制字符串有 **BIT**、**BINARY**、**VARBINARY**、**TINYB
   
 下表中列出了 MySQL 中的二进制数据类型，括号中的`M`表示可以为其指定长度。
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 ### BIT 类型
 
@@ -28,7 +28,7 @@ VARBINARY 类型的长度是可变的，指定好长度之后，长度可以在 
 
 BLOB 是一个二进制的对象，用来存储可变数量的数据。BLOB 类型分为 4 种：TINYBLOB、BLOB、MEDIUMBLOB 和 LONGBLOB，它们可容纳值的最大长度不同，如下表所示。
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 BLOB 列存储的是二进制字符串（字节字符串），TEXT 列存储的是非进制字符串（字符字符串）。BLOB 列是字符集，并且排序和比较基于列值字节的数值；TEXT 列有一个字符集，并且根据字符集对值进行排序和比较。
 

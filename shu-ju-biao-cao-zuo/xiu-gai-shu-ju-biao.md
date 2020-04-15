@@ -31,7 +31,7 @@ ALTER TABLE <表名> ADD <新字段名> <数据类型> [约束条件] [FIRST|AFT
 ALTER TABLE tb_emp1 ADD COLUMN col1 INT FIRST;
 ```
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 使用 ALTER TABLE 修改表 tb\_emp1 的结构，在一列 name 后添加一个 int 类型的字段 col2。
 
@@ -39,7 +39,7 @@ ALTER TABLE tb_emp1 ADD COLUMN col1 INT FIRST;
 ALTER TABLE tb_emp1 ADD COLUMN col2 INT AFTER name;
 ```
 
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2851%29.png)
 
 ### 修改字段数据类型
 
@@ -55,7 +55,7 @@ ALTER TABLE <表名> MODIFY <字段名> <数据类型>
 ALTER TABLE tb_emp1 MODIFY name VARCHAR(30);
 ```
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 ### 删除字段
 
@@ -71,7 +71,7 @@ ALTER TABLE <表名> DROP <字段名>；
 ALTER TABLE tb_emp1 DROP col2;
 ```
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 ### 修改字段名称
 
@@ -87,7 +87,7 @@ ALTER TABLE <表名> CHANGE <旧字段名> <新字段名> <新数据类型>；
 ALTER TABLE tb_emp1 CHANGE col1 col3 CHAR(30);
 ```
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 ### 修改表名
 
@@ -103,5 +103,5 @@ ALTER TABLE <旧表名> RENAME [TO] <新表名>；
 ALTER TABLE tb_emp1 RENAME TO tb_emp2;
 ```
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 

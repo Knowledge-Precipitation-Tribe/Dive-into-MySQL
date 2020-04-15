@@ -47,5 +47,7 @@
 * [设置别名](cha-xun-cao-zuo/she-zhi-bie-ming.md)
 * [限制查询结果的记录条数](cha-xun-cao-zuo/xian-zhi-cha-xun-jie-guo-de-ji-lu-tiao-shu.md)
 * [对查询结果进行排序](cha-xun-cao-zuo/dui-cha-xun-jie-guo-jin-hang-pai-xu.md)
+* [条件查询](cha-xun-cao-zuo/tiao-jian-cha-xun.md)
+* [常用运算符详解](cha-xun-cao-zuo/chang-yong-yun-suan-fu-xiang-jie.md)
 * [常见问题](chang-jian-wen-ti.md)
 
