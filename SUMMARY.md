@@ -40,14 +40,21 @@
 * [非空约束](shu-ju-biao-cao-zuo/fei-kong-yue-shu.md)
 * [查看表中的约束](shu-ju-biao-cao-zuo/cha-kan-biao-zhong-de-yue-shu.md)
 
-## 查询操作
+## 数据操作
 
-* [查询数据](cha-xun-cao-zuo/cha-xun-shu-ju.md)
-* [去重](cha-xun-cao-zuo/qu-zhong.md)
-* [设置别名](cha-xun-cao-zuo/she-zhi-bie-ming.md)
-* [限制查询结果的记录条数](cha-xun-cao-zuo/xian-zhi-cha-xun-jie-guo-de-ji-lu-tiao-shu.md)
-* [对查询结果进行排序](cha-xun-cao-zuo/dui-cha-xun-jie-guo-jin-hang-pai-xu.md)
-* [条件查询](cha-xun-cao-zuo/tiao-jian-cha-xun.md)
-* [常用运算符详解](cha-xun-cao-zuo/chang-yong-yun-suan-fu-xiang-jie.md)
+* [查询数据](shu-ju-cao-zuo/cha-xun-shu-ju.md)
+* [去重](shu-ju-cao-zuo/qu-zhong.md)
+* [设置别名](shu-ju-cao-zuo/she-zhi-bie-ming.md)
+* [限制查询结果的记录条数](shu-ju-cao-zuo/xian-zhi-cha-xun-jie-guo-de-ji-lu-tiao-shu.md)
+* [对查询结果进行排序](shu-ju-cao-zuo/dui-cha-xun-jie-guo-jin-hang-pai-xu.md)
+* [条件查询](shu-ju-cao-zuo/tiao-jian-cha-xun.md)
+* [常用运算符详解](shu-ju-cao-zuo/chang-yong-yun-suan-fu-xiang-jie.md)
+* [图解MySQL内连接、外连接、左连接、右连接](shu-ju-cao-zuo/tu-jie-mysql-nei-lian-jie-wai-lian-jie-zuo-lian-jie-you-lian-jie.md)
+* [内连接查询](shu-ju-cao-zuo/nei-lian-jie-cha-xun.md)
+* [外连接查询](shu-ju-cao-zuo/wai-lian-jie-cha-xun.md)
+* [子查询](shu-ju-cao-zuo/zi-cha-xun.md)
+* [分组查询](shu-ju-cao-zuo/fen-zu-cha-xun.md)
+* [指定过滤条件](shu-ju-cao-zuo/zhi-ding-guo-lv-tiao-jian.md)
+* [正则表达式查询](shu-ju-cao-zuo/zheng-ze-biao-da-shi-cha-xun.md)
 * [常见问题](chang-jian-wen-ti.md)
 
