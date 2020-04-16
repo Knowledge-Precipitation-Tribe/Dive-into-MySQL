@@ -46,7 +46,7 @@ CREATE TABLE tb_emp3(
 DESC tb_emp3;
 ```
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 ### 创建表时创建复合主键
 
@@ -65,7 +65,7 @@ CREATE TABLE tb_emp4(
 DESC tb_emp4;
 ```
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 ### 在修改表时添加主键约束
 
@@ -77,7 +77,7 @@ ALTER TABLE <数据表名> ADD PRIMARY KEY(<列名>);
 
 查看 tb\_emp2 数据表的表结构，如下所示。
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 改数据表 tb\_emp2，将字段 id 设置为主键，输入的 SQL 语句和运行结果如下所示。
 
@@ -85,5 +85,5 @@ ALTER TABLE <数据表名> ADD PRIMARY KEY(<列名>);
 ALTER TABLE tb_emp2 ADD PRIMARY KEY(id);
 ```
 
-![](../.gitbook/assets/image%20%2861%29.png)
+![](../.gitbook/assets/image%20%2869%29.png)
 

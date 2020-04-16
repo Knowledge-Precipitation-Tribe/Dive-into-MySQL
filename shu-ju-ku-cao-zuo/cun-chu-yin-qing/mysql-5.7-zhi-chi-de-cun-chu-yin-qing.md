@@ -6,7 +6,7 @@ MySQL 提供了多个不同的存储引擎，包括处理事务安全表的引�
   
 MySQL 5.7 支持的存储引擎有 InnoDB、MyISAM、Memory、Merge、Archive、Federated、CSV、BLACKHOLE 等。可以使用`SHOW ENGINES`语句查看系统所支持的引擎类型，结果如图所示。
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2862%29.png)
 
 Support 列的值表示某种引擎是否能使用，`YES`表示可以使用，`NO`表示不能使用，`DEFAULT`表示该引擎为当前默认的存储引擎。
 
