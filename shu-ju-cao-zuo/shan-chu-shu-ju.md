@@ -40,7 +40,7 @@ Empty set (0.00 sec)
 DELETE FROM tb_course_new WHERE course_id=4;
 ```
 
-![](../.gitbook/assets/image%20%2856%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
  由运行结果可以看出，course\_id 为 4 的记录已经被删除。
 

@@ -62,6 +62,11 @@
 * [插入数据](shu-ju-cao-zuo/cha-ru-shu-ju.md)
 * [修改数据](shu-ju-cao-zuo/xiu-gai-shu-ju.md)
 * [删除数据](shu-ju-cao-zuo/shan-chu-shu-ju.md)
-* [视图操作](shu-ju-cao-zuo/shi-tu-cao-zuo.md)
+* [视图简介](shu-ju-cao-zuo/shi-tu-cao-zuo/README.md)
+  * [创建视图](shu-ju-cao-zuo/shi-tu-cao-zuo/chuang-jian-shi-tu.md)
+  * [修改视图](shu-ju-cao-zuo/shi-tu-cao-zuo/xiu-gai-shi-tu.md)
+  * [删除视图](shu-ju-cao-zuo/shi-tu-cao-zuo/shan-chu-shi-tu.md)
+* [自定义函数](shu-ju-cao-zuo/zi-ding-yi-han-shu.md)
+* [存储过程简介](shu-ju-cao-zuo/cun-chu-guo-cheng-jian-jie.md)
 * [常见问题](chang-jian-wen-ti.md)
 
