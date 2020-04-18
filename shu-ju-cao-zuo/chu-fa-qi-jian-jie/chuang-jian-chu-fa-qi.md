@@ -9,7 +9,7 @@
  语法格式如下：
 
 ```text
-CREATE <触发器名> < BEFORE | AFTER > <INSERT | UPDATE | DELETE > ON <表名> FOR EACH Row<触发器主体>
+CREATE TRIGGER <触发器名> < BEFORE | AFTER > <INSERT | UPDATE | DELETE > ON <表名> FOR EACH Row<触发器主体>
 ```
 
  语法说明如下。
@@ -50,7 +50,7 @@ CREATE <触发器名> < BEFORE | AFTER > <INSERT | UPDATE | DELETE > ON <表名>
 
 ##  创建 BEFORE 类型触发器
 
- 在 test\_db 数据库中，数据表 tb\_emp8 为员工信息表，包含 id、name、deptId 和 salary 字段，数据表 tb\_emp8 的表结构如下所示。
+在 test\_db 数据库中，数据表 tb\_emp8 为员工信息表，包含 id、name、deptId 和 salary 字段，数据表 tb\_emp8 的表结构如下所示。
 
 ```text
 mysql> SELECT * FROM tb_emp8;

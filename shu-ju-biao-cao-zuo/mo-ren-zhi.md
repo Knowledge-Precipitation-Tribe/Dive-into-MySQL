@@ -40,7 +40,7 @@ ALTER TABLE <数据表名> CHANGE COLUMN <字段名> <数据类型> DEFAULT <默
 ALTER TABLE tb_dept3 CHANGE COLUMN  location location VARCHAR(50) DEFAULT 'shanghai';
 ```
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%2882%29.png)
 
 ##  删除默认值约束
 
@@ -57,5 +57,5 @@ ALTER TABLE tb_dept3 CHANGE COLUMN  location location VARCHAR(50) DEFAULT 'shang
 ALTER TABLE tb_dept3 CHANGE COLUMN location location VARCHAR(50) DEFAULT NULL;
 ```
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 

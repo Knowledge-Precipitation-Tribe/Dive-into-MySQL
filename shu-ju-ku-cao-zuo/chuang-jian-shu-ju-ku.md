@@ -20,7 +20,7 @@ CREATE DATABASE test_db
 
 使用`IF NOT EXISTS`来避免创建数据库错误。
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2890%29.png)
 
 ### 创建数据库指定数据集
 

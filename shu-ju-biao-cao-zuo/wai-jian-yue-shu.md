@@ -37,7 +37,7 @@ CREATE TABLE tb_dept1(
 );
 ```
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 
 创建数据表 tb\_emp6，并在表 tb\_emp6 上创建外键约束，让它的键 deptId 作为外键关联到表 tb\_dept1 的主键 id，输入的 SQL 语句和运行结果如下所示。
 

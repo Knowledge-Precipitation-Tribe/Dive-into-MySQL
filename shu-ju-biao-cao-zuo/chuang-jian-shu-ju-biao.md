@@ -35,7 +35,7 @@ CREATE TABLE tb_emp1(
 SHOW TABLES;
 ```
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 
 查看表的结构
 

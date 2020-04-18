@@ -36,7 +36,7 @@ SELECT * FROM tb_students_info WHERE height=160;
 SELECT * FROM tb_students_info WHERE age<24;
 ```
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%2883%29.png)
 
  可以看到，查询结果中所有记录的 age 字段的值均小于 24 岁，而大于或等于 24 岁的记录没有被返回。
 

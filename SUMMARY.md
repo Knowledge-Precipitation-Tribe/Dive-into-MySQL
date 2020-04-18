@@ -17,6 +17,14 @@
 * [存储引擎](shu-ju-ku-cao-zuo/cun-chu-yin-qing/README.md)
   * [MySQL 5.7 支持的存储引擎](shu-ju-ku-cao-zuo/cun-chu-yin-qing/mysql-5.7-zhi-chi-de-cun-chu-yin-qing.md)
   * [如何选择 MySQL 存储引擎](shu-ju-ku-cao-zuo/cun-chu-yin-qing/ru-he-xuan-ze-mysql-cun-chu-yin-qing.md)
+* [用户操作](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/README.md)
+  * [创建用户](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/chuang-jian-yong-hu.md)
+  * [修改用户](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/xiu-gai-yong-hu.md)
+  * [删除用户](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/shan-chu-yong-hu.md)
+  * [用户授权](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/yong-hu-shou-quan.md)
+  * [删除用户权限](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/shan-chu-yong-hu-quan-xian.md)
+* [数据库备份](shu-ju-ku-cao-zuo/shu-ju-ku-bei-fen.md)
+* [数据库恢复](shu-ju-ku-cao-zuo/shu-ju-ku-hui-fu.md)
 
 ## 数据类型
 
@@ -73,5 +81,10 @@
   * [删除存储过程](shu-ju-cao-zuo/cun-chu-guo-cheng-jian-jie/shan-chu-cun-chu-guo-cheng.md)
 * [触发器简介](shu-ju-cao-zuo/chu-fa-qi-jian-jie/README.md)
   * [创建触发器](shu-ju-cao-zuo/chu-fa-qi-jian-jie/chuang-jian-chu-fa-qi.md)
+  * [修改和删除触发器](shu-ju-cao-zuo/chu-fa-qi-jian-jie/xiu-gai-he-shan-chu-chu-fa-qi.md)
+* [索引简介](shu-ju-cao-zuo/suo-yin-jian-jie/README.md)
+  * [创建索引](shu-ju-cao-zuo/suo-yin-jian-jie/chuang-jian-suo-yin.md)
+  * [修改和删除索引](shu-ju-cao-zuo/suo-yin-jian-jie/xiu-gai-he-shan-chu-suo-yin.md)
+* [事务](shu-ju-cao-zuo/shi-wu.md)
 * [常见问题](chang-jian-wen-ti.md)
 
