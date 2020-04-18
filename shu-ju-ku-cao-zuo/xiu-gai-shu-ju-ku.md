@@ -12,7 +12,7 @@ ALTER DATABASE [数据库名] {
 
 我们来看一下刚才创建的test\_db数据库。
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 可以看到它的默认字符集是latin1，现在我们将其修改为utf8。
 
@@ -20,5 +20,5 @@ ALTER DATABASE [数据库名] {
 ALTER DATABASE test_db DEFAULT CHARACTER SET utf8;
 ```
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 

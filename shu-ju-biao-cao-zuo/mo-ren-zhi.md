@@ -22,7 +22,7 @@ CREATE TABLE tb_dept3(
 
  
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 以上语句执行成功之后，表 tb\_dept3 上的字段 location 拥有了一个默认值 Beijing，新插入的记录如果没有指定部门位置，则默认都为 Beijing。
 
@@ -40,7 +40,7 @@ ALTER TABLE <数据表名> CHANGE COLUMN <字段名> <数据类型> DEFAULT <默
 ALTER TABLE tb_dept3 CHANGE COLUMN  location location VARCHAR(50) DEFAULT 'shanghai';
 ```
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%28111%29.png)
 
 ##  删除默认值约束
 
@@ -57,5 +57,5 @@ ALTER TABLE tb_dept3 CHANGE COLUMN  location location VARCHAR(50) DEFAULT 'shang
 ALTER TABLE tb_dept3 CHANGE COLUMN location location VARCHAR(50) DEFAULT NULL;
 ```
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%28118%29.png)
 

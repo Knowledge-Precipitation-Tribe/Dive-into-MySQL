@@ -26,7 +26,7 @@
 SELECT stu.name, stu.height FROM tb_students_info AS stu;
 ```
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 ##  为字段指定别名
 
@@ -50,7 +50,7 @@ SELECT stu.name, stu.height FROM tb_students_info AS stu;
 SELECT name AS student_name, age AS student_age FROM tb_students_info;
 ```
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
  注意：表别名只在执行查询时使用，并不在返回结果中显示。而字段定义别名之后，会返回给客户端显示，显示的字段为字段的别名。
 

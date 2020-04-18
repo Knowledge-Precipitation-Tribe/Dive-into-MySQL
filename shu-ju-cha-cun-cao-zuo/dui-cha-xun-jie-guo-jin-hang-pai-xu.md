@@ -28,7 +28,7 @@
 SELECT * FROM tb_students_info ORDER BY height;
 ```
 
-![](../.gitbook/assets/image%20%2850%29.png)
+![](../.gitbook/assets/image%20%2871%29.png)
 
  该语句通过指定 ORDER BY 子句，MySQL 对查询的 height 列的数据按数值的大小进行了升序排序。
 
@@ -40,7 +40,7 @@ SELECT * FROM tb_students_info ORDER BY height;
 SELECT * FROM tb_students_info ORDER BY height, name;
 ```
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 > 注意：在对多列进行排序时，首行排序的第一列必须有相同的列值，才会对第二列进行排序。如果第一列数据中所有的值都是唯一的，将不再对第二列进行排序。
 
@@ -52,7 +52,7 @@ SELECT * FROM tb_students_info ORDER BY height, name;
 SELECT * FROM tb_students_info ORDER BY height DESC,name ASC;
 ```
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 > 注意：DESC 关键字只对前面的列进行降序排列，在这里只对 height 排序，而并没有对 name 进行排序，因此，height 按降序排序，而 name 仍按升序排序，如果要对多列进行降序排序，必须要在每一列的后面加 DESC 关键字。
 

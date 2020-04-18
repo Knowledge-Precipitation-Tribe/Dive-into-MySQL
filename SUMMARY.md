@@ -23,6 +23,7 @@
   * [删除用户](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/shan-chu-yong-hu.md)
   * [用户授权](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/yong-hu-shou-quan.md)
   * [删除用户权限](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/shan-chu-yong-hu-quan-xian.md)
+* [全球化和本地化](shu-ju-ku-cao-zuo/quan-qiu-hua-he-ben-di-hua.md)
 * [数据库备份](shu-ju-ku-cao-zuo/shu-ju-ku-bei-fen.md)
 * [数据库恢复](shu-ju-ku-cao-zuo/shu-ju-ku-hui-fu.md)
 
@@ -51,7 +52,7 @@
 ## 数据查询操作 <a id="shu-ju-cha-cun-cao-zuo"></a>
 
 * [查询数据](shu-ju-cha-cun-cao-zuo/cha-xun-shu-ju.md)
-* [去重](shu-ju-cha-cun-cao-zuo/qu-zhong.md)
+* [查询数据去重](shu-ju-cha-cun-cao-zuo/qu-zhong.md)
 * [设置别名](shu-ju-cha-cun-cao-zuo/she-zhi-bie-ming.md)
 * [限制查询结果的记录条数](shu-ju-cha-cun-cao-zuo/xian-zhi-cha-xun-jie-guo-de-ji-lu-tiao-shu.md)
 * [对查询结果进行排序](shu-ju-cha-cun-cao-zuo/dui-cha-xun-jie-guo-jin-hang-pai-xu.md)
@@ -61,8 +62,23 @@
 * [内连接查询](shu-ju-cha-cun-cao-zuo/nei-lian-jie-cha-xun.md)
 * [外连接查询](shu-ju-cha-cun-cao-zuo/wai-lian-jie-cha-xun.md)
 * [子查询](shu-ju-cha-cun-cao-zuo/zi-cha-xun.md)
-* [分组查询](shu-ju-cha-cun-cao-zuo/fen-zu-cha-xun.md)
-* [指定过滤条件](shu-ju-cha-cun-cao-zuo/zhi-ding-guo-lv-tiao-jian.md)
+* [计算字段](shu-ju-cha-cun-cao-zuo/ji-suan-zi-duan/README.md)
+  * [拼接字段](shu-ju-cha-cun-cao-zuo/ji-suan-zi-duan/pin-jie-zi-duan.md)
+  * [执行算数计算](shu-ju-cha-cun-cao-zuo/ji-suan-zi-duan/zhi-hang-suan-shu-ji-suan.md)
+* [函数](shu-ju-cha-cun-cao-zuo/han-shu/README.md)
+  * [文本处理函数](shu-ju-cha-cun-cao-zuo/han-shu/wen-ben-chu-li-han-shu.md)
+  * [日期和时间处理函数](shu-ju-cha-cun-cao-zuo/han-shu/ri-qi-he-shi-jian-chu-li-han-shu.md)
+  * [数值处理函数](shu-ju-cha-cun-cao-zuo/han-shu/shu-zhi-chu-li-han-shu.md)
+  * [聚集函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/README.md)
+    * [AVG函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/avg-han-shu.md)
+    * [COUNT函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/count-han-shu.md)
+    * [MAX函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/max-han-shu.md)
+    * [MIN函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/min-han-shu.md)
+    * [SUM函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/sum-han-shu.md)
+    * [聚集不同值](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/ju-ji-bu-tong-zhi.md)
+    * [组合聚集函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/zu-he-ju-ji-han-shu.md)
+* [分组查询](shu-ju-cha-cun-cao-zuo/fen-zu-cha-xun/README.md)
+  * [指定过滤条件](shu-ju-cha-cun-cao-zuo/fen-zu-cha-xun/zhi-ding-guo-lv-tiao-jian.md)
 * [正则表达式查询](shu-ju-cha-cun-cao-zuo/zheng-ze-biao-da-shi-cha-xun.md)
 
 ## 数据操作
