@@ -67,6 +67,11 @@
   * [修改视图](shu-ju-cao-zuo/shi-tu-cao-zuo/xiu-gai-shi-tu.md)
   * [删除视图](shu-ju-cao-zuo/shi-tu-cao-zuo/shan-chu-shi-tu.md)
 * [自定义函数](shu-ju-cao-zuo/zi-ding-yi-han-shu.md)
-* [存储过程简介](shu-ju-cao-zuo/cun-chu-guo-cheng-jian-jie.md)
+* [存储过程简介](shu-ju-cao-zuo/cun-chu-guo-cheng-jian-jie/README.md)
+  * [创建存储过程](shu-ju-cao-zuo/cun-chu-guo-cheng-jian-jie/chuang-jian-cun-chu-guo-cheng.md)
+  * [修改存储过程](shu-ju-cao-zuo/cun-chu-guo-cheng-jian-jie/xiu-gai-cun-chu-guo-cheng.md)
+  * [删除存储过程](shu-ju-cao-zuo/cun-chu-guo-cheng-jian-jie/shan-chu-cun-chu-guo-cheng.md)
+* [触发器简介](shu-ju-cao-zuo/chu-fa-qi-jian-jie/README.md)
+  * [创建触发器](shu-ju-cao-zuo/chu-fa-qi-jian-jie/chuang-jian-chu-fa-qi.md)
 * [常见问题](chang-jian-wen-ti.md)
 
