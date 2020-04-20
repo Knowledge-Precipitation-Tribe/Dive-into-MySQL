@@ -22,7 +22,7 @@ CREATE DATABASE test_db
 
 ![](../.gitbook/assets/image%20%28120%29.png)
 
-### 创建数据库指定数据集
+### 创建数据库时指定数据集
 
 ```text
 CREATE DATABASE IF NOT EXISTS test_db_char DEFAULT CHARACTER SET utf8;
