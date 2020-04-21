@@ -114,7 +114,7 @@ SELECT < 列名 > FROM < 表名 >;
 SELECT name FROM tb_students_info;
 ```
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 从 tb\_students\_info 表中获取 id、name 和 height 三列，SQL 语句和运行结果如下所示。
 
@@ -122,5 +122,5 @@ SELECT name FROM tb_students_info;
 SELECT id, name, height FROM tb_students_info;
 ```
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 

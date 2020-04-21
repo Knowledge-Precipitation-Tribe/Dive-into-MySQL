@@ -36,7 +36,7 @@ ALTER TABLE <数据表名> CHANGE COLUMN <字段名> <字段名> <数据类型> 
 ALTER TABLE tb_dept4 CHANGE COLUMN location location VARCHAR(50) NOT NULL;
 ```
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 
 ##  删除非空约束
 

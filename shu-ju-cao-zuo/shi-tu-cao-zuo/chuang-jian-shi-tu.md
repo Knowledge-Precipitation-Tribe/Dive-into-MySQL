@@ -54,7 +54,7 @@ CREATE VIEW view_students_info AS SELECT * FROM tb_students_info;
 SELECT * FROM view_students_info;
 ```
 
-![](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%2889%29.png)
 
  默认情况下，创建的视图和基本表的字段是一样的，也可以通过指定视图字段的名称来创建视图。
 
@@ -67,7 +67,7 @@ CREATE VIEW v_students_info
     FROM tb_students_info;
 ```
 
-![](../../.gitbook/assets/image%20%28108%29.png)
+![](../../.gitbook/assets/image%20%28109%29.png)
 
  可以看到，view\_students\_info 和 v\_students\_info 两个视图中的字段名称不同，但是数据却相同。因此，在使用视图时，可能用户不需要了解基本表的结构，更接触不到实际表中的数据，从而保证了数据库的安全。
 
@@ -89,7 +89,7 @@ INSERT INTO tb_class VALUES (3, '3班');
 SELECT * FROM tb_class;
 ```
 
-![](../../.gitbook/assets/image%20%2894%29.png)
+![](../../.gitbook/assets/image%20%2895%29.png)
 
  【实例 3】在表 tb\_student\_info 和表 tb\_class上创建视图 v\_student，输入的 SQL 语句和执行结果如下所示。
 
@@ -99,7 +99,7 @@ CREATE VIEW v_student (s_name, s_age, s_sex, c_name)
     WHERE s.id = c.id;
 ```
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
  通过这个视图可以很好地保护基本表中的数据。视图中包含 s\_name、s\_age、s\_sex字段对应 tb\_students\_info 表中的 字段，c\_name 字段对应 tb\_class 表中的 name 字段。
 

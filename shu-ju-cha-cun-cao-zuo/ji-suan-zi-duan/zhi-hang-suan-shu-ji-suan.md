@@ -10,7 +10,7 @@ WHERE order_num = 20005;
 
 
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 item\_price列包含订单中每项物品的单价。如下汇总物品的价格（单价乘以订购数量）：
 

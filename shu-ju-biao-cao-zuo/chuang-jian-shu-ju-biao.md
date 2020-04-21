@@ -16,7 +16,7 @@ CREATE TABLE <表名> (<列名1><类型>, <列名2><类型>, ...)
 
 创建员工表 tb\_emp1，结构如下表所示。
 
-![](../.gitbook/assets/image%20%2896%29.png)
+![](../.gitbook/assets/image%20%2897%29.png)
 
 ```text
 CREATE TABLE tb_emp1(
@@ -27,7 +27,7 @@ CREATE TABLE tb_emp1(
 );
 ```
 
-![](../.gitbook/assets/image%20%2899%29.png)
+![](../.gitbook/assets/image%20%28100%29.png)
 
 使用命令查看数据表
 
@@ -35,7 +35,7 @@ CREATE TABLE tb_emp1(
 SHOW TABLES;
 ```
 
-![](../.gitbook/assets/image%20%28123%29.png)
+![](../.gitbook/assets/image%20%28124%29.png)
 
 查看表的结构
 
@@ -43,7 +43,7 @@ SHOW TABLES;
 DESCRIBE tb_emp1;
 ```
 
-![](../.gitbook/assets/image%20%2867%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 其中，各个字段的含义如下：
 
@@ -54,5 +54,5 @@ DESCRIBE tb_emp1;
 
 在DataGrip中也可以快捷查看表结构
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 

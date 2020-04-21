@@ -48,7 +48,10 @@
 * [默认值](shu-ju-biao-cao-zuo/mo-ren-zhi.md)
 * [非空约束](shu-ju-biao-cao-zuo/fei-kong-yue-shu.md)
 * [查看表中的约束](shu-ju-biao-cao-zuo/cha-kan-biao-zhong-de-yue-shu.md)
-* [并发控制](shu-ju-biao-cao-zuo/bing-fa-kong-zhi.md)
+* [并发控制](shu-ju-biao-cao-zuo/bing-fa-kong-zhi/README.md)
+  * [MVCC](shu-ju-biao-cao-zuo/bing-fa-kong-zhi/mvcc.md)
+  * [悲观锁与乐观锁](shu-ju-biao-cao-zuo/bing-fa-kong-zhi/bei-guan-suo-yu-le-guan-suo.md)
+  * [Next-Key锁](shu-ju-biao-cao-zuo/bing-fa-kong-zhi/nextkey-suo.md)
 
 ## 数据查询操作 <a id="shu-ju-cha-cun-cao-zuo"></a>
 
@@ -106,4 +109,5 @@
   * [并发事务带来的问题](shu-ju-cao-zuo/shi-wu/bing-fa-shi-wu-dai-lai-de-wen-ti.md)
   * [事务隔离级别](shu-ju-cao-zuo/shi-wu/shi-wu-ge-li-ji-bie.md)
 * [常见问题](chang-jian-wen-ti.md)
+* [参考文献](can-kao-wen-xian.md)
 

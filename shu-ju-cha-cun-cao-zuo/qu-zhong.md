@@ -12,7 +12,7 @@ SELECT DISTINCT <字段名> FROM <表名>;
 SELECT age FROM tb_students_info;
 ```
 
-![](../.gitbook/assets/image%20%2895%29.png)
+![](../.gitbook/assets/image%20%2896%29.png)
 
 使用去重操作
 
@@ -20,5 +20,5 @@ SELECT age FROM tb_students_info;
 SELECT DISTINCT age FROM tb_students_info;
 ```
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 

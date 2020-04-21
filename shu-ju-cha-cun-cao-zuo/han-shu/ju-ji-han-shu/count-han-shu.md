@@ -14,7 +14,7 @@ SELECT COUNT(*) AS num_cust
 FROM customers;
 ```
 
-![](../../../.gitbook/assets/image%20%2853%29.png)
+![](../../../.gitbook/assets/image%20%2854%29.png)
 
 下面的例子只对具有电子邮件地址的客户计数：
 
@@ -23,5 +23,5 @@ SELECT COUNT(cust_email) AS num_cust
 FROM customers;
 ```
 
-![](../../../.gitbook/assets/image%20%2887%29.png)
+![](../../../.gitbook/assets/image%20%2888%29.png)
 
