@@ -52,6 +52,7 @@
   * [MVCC](shu-ju-biao-cao-zuo/bing-fa-kong-zhi/mvcc.md)
   * [悲观锁与乐观锁](shu-ju-biao-cao-zuo/bing-fa-kong-zhi/bei-guan-suo-yu-le-guan-suo.md)
   * [Next-Key锁](shu-ju-biao-cao-zuo/bing-fa-kong-zhi/nextkey-suo.md)
+  * [死锁](shu-ju-biao-cao-zuo/bing-fa-kong-zhi/si-suo.md)
 
 ## 数据查询操作 <a id="shu-ju-cha-cun-cao-zuo"></a>
 
