@@ -1,6 +1,6 @@
 # 修改用户
 
-在 MySQL 中，我们可以使用 **RENAME USER** 语句修改一个或多个已经存在的用户账号。
+在MySQL中，我们可以使用**RENAME USER**语句修改一个或多个已经存在的用户账号。
 
  语法格式如下：
 
@@ -21,7 +21,7 @@ RENAME USER <旧用户> TO <新用户>
 
 ##  例 1
 
- 使用 RENAME USER 语句将用户名 test1 修改为 testUser1，主机是 localhost。SQL 语句和执行过程如下。
+ 使用RENAME USER语句将用户 test1修改为testUser1，主机是localhost。SQL语句和执行过程如下。
 
 ```text
 mysql> RENAME USER 'test1'@'localhost'
