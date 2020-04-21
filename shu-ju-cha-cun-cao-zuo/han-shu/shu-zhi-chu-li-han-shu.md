@@ -4,5 +4,5 @@
 
 具有讽刺意味的是，在主要DBMS的函数中，数值函数是最一致最统一的函数。
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 

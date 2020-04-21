@@ -6,7 +6,7 @@
 
 ## 常用日期和时间处理函数
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 这是重新复习用WHERE进行数据过滤的一个好时机。迄今为止，我 们都是用比较数值和文本的WHERE子句过滤数据，但数据经常需要用日 期进行过滤。 用日期进行过滤需要注意一些别的问题和使用特殊的 MySQL函数。
 
@@ -18,7 +18,7 @@ FROM orders
 WHERE order_date = '2005-09-01';
 ```
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 但是， 使用 WHERE order_date = '2005-09-01'可靠吗？ order_ date的数据类型为 datetime。这种类型存储日期及时间值。样例表中 的值全都具有时间值 00:00:00， 但实际中很可能并不总是这样。 如果 用当前日期和时间存储订单日期（因此你不仅知道订单日期， 还知道 下 订 单 当 天 的 时 间 ）， 怎 么 办 ？ 比 如 ， 存 储 的 order\_date 值 为 2005-09-01 11:30:05， 则 WHERE order\_date = '2005-09-01'失败。 即使给出具有该日期的一行，也不会把它检索出来，因为 WHERE匹配失败。
 
@@ -42,7 +42,7 @@ FROM orders
 WHERE Date(order_date) BETWEEN '2005=09-01' AND '2005-09-30';
 ```
 
-![](../../.gitbook/assets/image%20%28110%29.png)
+![](../../.gitbook/assets/image%20%28111%29.png)
 
 还有另外一种办法（一种不需要记住每个月中有多少天或不需要操 心闰年2月的办法）：
 

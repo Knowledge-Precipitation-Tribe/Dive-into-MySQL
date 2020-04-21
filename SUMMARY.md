@@ -48,6 +48,7 @@
 * [默认值](shu-ju-biao-cao-zuo/mo-ren-zhi.md)
 * [非空约束](shu-ju-biao-cao-zuo/fei-kong-yue-shu.md)
 * [查看表中的约束](shu-ju-biao-cao-zuo/cha-kan-biao-zhong-de-yue-shu.md)
+* [并发控制](shu-ju-biao-cao-zuo/bing-fa-kong-zhi.md)
 
 ## 数据查询操作 <a id="shu-ju-cha-cun-cao-zuo"></a>
 
@@ -101,6 +102,8 @@
 * [索引简介](shu-ju-cao-zuo/suo-yin-jian-jie/README.md)
   * [创建索引](shu-ju-cao-zuo/suo-yin-jian-jie/chuang-jian-suo-yin.md)
   * [修改和删除索引](shu-ju-cao-zuo/suo-yin-jian-jie/xiu-gai-he-shan-chu-suo-yin.md)
-* [事务](shu-ju-cao-zuo/shi-wu.md)
+* [事务](shu-ju-cao-zuo/shi-wu/README.md)
+  * [并发事务带来的问题](shu-ju-cao-zuo/shi-wu/bing-fa-shi-wu-dai-lai-de-wen-ti.md)
+  * [事务隔离级别](shu-ju-cao-zuo/shi-wu/shi-wu-ge-li-ji-bie.md)
 * [常见问题](chang-jian-wen-ti.md)
 

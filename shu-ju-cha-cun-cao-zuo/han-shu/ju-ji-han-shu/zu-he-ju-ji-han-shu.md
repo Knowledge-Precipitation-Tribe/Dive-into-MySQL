@@ -10,5 +10,5 @@ SELECT COUNT(*) AS num_items,
 FROM products;
 ```
 
-![](../../../.gitbook/assets/image%20%28116%29.png)
+![](../../../.gitbook/assets/image%20%28117%29.png)
 

@@ -18,7 +18,7 @@ FROM vendors
 ORDER BY vend_name;
 ```
 
-![](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%2889%29.png)
 
 还可以通过删除数据右侧多余的空格来整理数据，这可以使用MySQL的RTrim\(\)函数来完成，如下所示：
 
@@ -41,5 +41,5 @@ FROM vendors
 ORDER BY vend_name;
 ```
 
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](../../.gitbook/assets/image%20%2861%29.png)
 

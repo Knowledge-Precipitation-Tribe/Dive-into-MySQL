@@ -28,7 +28,7 @@ UPDATE <表名> SET 字段1=值1 [,字段2=值2… ] [WHERE 子句 ] [ORDER BY �
 UPDATE tb_course_new SET course_grade=4;
 ```
 
-![](../.gitbook/assets/image%20%28123%29.png)
+![](../.gitbook/assets/image%20%28124%29.png)
 
 {% hint style="info" %}
 update语句需要加入where限定条件，否则会对整个表进行更新，操作不当容易导致数据丢失。
@@ -42,7 +42,7 @@ update语句需要加入where限定条件，否则会对整个表进行更新，
 UPDATE tb_course_new SET course_name='DB', course_grade=3.5 WHERE course_id=2;
 ```
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
  注意：保证 UPDATE 以 WHERE 子句结束，通过 WHERE 子句指定被更新的记录所需要满足的条件，如果忽略 WHERE 子句，MySQL 将更新表中所有的行。
 

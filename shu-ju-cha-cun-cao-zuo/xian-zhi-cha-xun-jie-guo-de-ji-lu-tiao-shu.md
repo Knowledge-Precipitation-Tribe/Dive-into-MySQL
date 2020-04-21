@@ -18,7 +18,7 @@
 SELECT * FROM tb_students_info LIMIT 2;
 ```
 
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
  由结果可以看到，该语句没有指定返回记录的“位置偏移量”参数，显示结果从第一行开始，“行数”参数为 2，因此返回的结果为表中的前2行记录。
 
@@ -30,7 +30,7 @@ SELECT * FROM tb_students_info LIMIT 2;
 SELECT * FROM tb_students_info LIMIT 1,2;
 ```
 
-![](../.gitbook/assets/image%20%28108%29.png)
+![](../.gitbook/assets/image%20%28109%29.png)
 
  由结果可以看到，该语句指示 MySQL 返回从第1条记录行开始的之后的2条记录，第一个数字“2”表示从第 1行开始（位置偏移量从 0 开始，第2行的位置偏移量为 1），第二个数字2表示返回的行数。
 
