@@ -28,12 +28,12 @@ MySQL 数据库中事务是用户一系列的数据库操作序列，这些操�
 
 ##  开始事务
 
- 事务以 BEGIN TRANSACTION 开始。
+ 事务以 START TRANSACTION 开始。
 
  语法格式如下：
 
 ```text
-BEGIN TRANSACTION <事务名称> |@<事务变量名称>
+START TRANSACTION <事务名称> |@<事务变量名称>
 ```
 
  语法说明如下：
