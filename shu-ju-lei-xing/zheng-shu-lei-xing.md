@@ -1,6 +1,6 @@
 # 整数类型
 
-MySQL 主要提供的整数类型有 **TINYINT**、**SMALLINT**、**MEDIUMINT**、**INT**、**BIGINT**，其属性字段可以添加 AUTO\_INCREMENT 自增约束条件。
+MySQL主要提供的整数类型有 **TINYINT**、**SMALLINT**、**MEDIUMINT**、**INT**、**BIGINT**，其属性字段可以添加 AUTO\_INCREMENT 自增约束条件。
 
 ![](../.gitbook/assets/image.png)
 
