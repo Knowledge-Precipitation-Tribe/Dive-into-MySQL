@@ -1,6 +1,6 @@
 # 修改数据表
 
-在 MySQL 中可以使用 **ALTER TABLE** 语句来改变原有表的结构，例如增加或删减列、创建或取消索引、更改原有列类型、重新命名列或表等。
+在MySQL中可以使用**ALTER TABLE**语句来改变原有表的结构，例如增加或删减列、创建或取消索引、更改原有列类型、重新命名列或表等。
 
 ```text
 ALTER TABLE <表名> [修改选项]
@@ -25,7 +25,7 @@ ALTER TABLE <表名> ADD <新字段名> <数据类型> [约束条件] [FIRST|AFT
 
 `新字段名`为需要添加的字段的名称；`FIRST` 为可选参数，其作用是将新添加的字段设置为表的第一个字段；`AFTER` 为可选参数，其作用是将新添加的字段添加到指定的`已存在的字段名`的后面。
 
-使用 ALTER TABLE 修改表 tb\_emp1 的结构，在表的第一列添加一个 int 类型的字段 col1。
+使用 ALTER TABLE 修改表 tb\_emp1 的结构，在表的第一列添加一个int类型的字段col1。
 
 ```text
 ALTER TABLE tb_emp1 ADD COLUMN col1 INT FIRST;

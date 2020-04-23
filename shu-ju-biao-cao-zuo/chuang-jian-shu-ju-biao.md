@@ -1,6 +1,6 @@
 # 创建数据表
 
-在MySQL中使用\`CREATE TABLE\`语句创建表。语法格式为：
+在MySQL中使用`CREATE TABLE`语句创建表。语法格式为：
 
 ```text
 CREATE TABLE <表名> (<列名1><类型>, <列名2><类型>, ...)
@@ -19,6 +19,8 @@ CREATE TABLE <表名> (<列名1><类型>, <列名2><类型>, ...)
 ![](../.gitbook/assets/image%20%2897%29.png)
 
 ```text
+USE test_db;
+
 CREATE TABLE tb_emp1(
     id INT(11),
     name VARCHAR(25),
@@ -47,10 +49,10 @@ DESCRIBE tb_emp1;
 
 其中，各个字段的含义如下：
 
-* Null：表示该列是否可以存储 NULL 值。
-* Key：表示该列是否已编制索引。PRI 表示该列是表主键的一部分，UNI 表示该列是 UNIQUE 索引的一部分，MUL 表示在列中某个给定值允许出现多次。
+* Null：表示该列是否可以存储NULL值。
+* Key：表示该列是否已编制索引。PRI表示该列是表主键的一部分，UNI表示该列是UNIQUE索引的一部分，MUL表示在列中某个给定值允许出现多次。
 * Default：表示该列是否有默认值，如果有，值是多少。
-* Extra：表示可以获取的与给定列有关的附加信息，如 AUTO\_INCREMENT 等。
+* Extra：表示可以获取的与给定列有关的附加信息，如AUTO\_INCREMENT等。
 
 在DataGrip中也可以快捷查看表结构
 
