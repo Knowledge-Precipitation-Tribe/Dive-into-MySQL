@@ -1,6 +1,6 @@
 # 查询数据
 
-在 MySQL 中，可以使用 SELECT 语句来查询数据。查询数据是指从数据库中根据需求，使用不同的查询方式来获取不同的数据，是使用频率最高、最重要的操作。
+在MySQL中，可以使用SELECT语句来查询数据。查询数据是指从数据库中根据需求，使用不同的查询方式来获取不同的数据，是使用频率最高、最重要的操作。
 
 SELEC的语法格式如下：
 
@@ -77,7 +77,7 @@ SELECT * FROM 表名;
 从 tb\_students\_info 表中查询所有字段的数据，SQL 语句和运行结果如下所示。
 
 ```text
-SELECT * FROM FROM tb_students_info
+SELECT * FROM tb_students_info
 ```
 
 ![](../.gitbook/assets/image%20%2840%29.png)
