@@ -2,7 +2,7 @@
 
 SUM\(\)用来返回指定列值的和（总计）。
 
-下面举一个例子，orderitems表包含订单中实际的物品，每个物品有相应的数量（ quantity ）。 可如下检索所订购物品的总数（所有 quantity值之和）：
+下面举一个例子，orderitems表包含订单中实际的物品，每个物品有相应的数量（ quantity ）。 可如下检索所订购物品的总数（所有quantity值之和）：
 
 ```text
 SELECT SUM(quantity) AS item_ordered
