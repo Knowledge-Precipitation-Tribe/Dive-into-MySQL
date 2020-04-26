@@ -127,13 +127,13 @@ INSERT INTO tb_course
 
  可以看到插入记录成功。如查询结果显示，这里的 course\_id 字段自动添加了一个整数值 4。这时的 course\_id 字段为表的主键，不能为空，系统自动为该字段插入自增的序列值。在插入记录时，如果某些字段没有指定插入值，MySQL 将插入该字段定义时的默认值。
 
-##  使用 INSERT INTO…FROM 语句复制表数据
+##  使用INSERT INTO…FROM语句复制表数据
 
  INSERT INTO…SELECT…FROM 语句用于快速地从一个或多个表中取出数据，并将这些数据作为行数据插入另一个表中。
 
- SELECT 子句返回的是一个查询到的结果集，INSERT 语句将这个结果集插入指定表中，结果集中的每行数据的字段数、字段的数据类型都必须与被操作的表完全一致。
+ SELECT 子句返回的是一个查询到的结果集，INSERT 语句将这个结果集插入指定表中，**结果集中的每行数据的字段数、字段的数据类型都必须与被操作的表完全一致。**
 
- 在数据库 test\_db 中创建一个与 tb\_courses 表结构相同的数据表 tb\_courses\_new，创建表的 SQL 语句和执行过程如下所示。
+在数据库 test\_db 中创建一个与 tb\_courses 表结构相同的数据表tb\_courses\_new，创建表的 SQL 语句和执行过程如下所示。
 
 ```text
 CREATE TABLE tb_course_new(

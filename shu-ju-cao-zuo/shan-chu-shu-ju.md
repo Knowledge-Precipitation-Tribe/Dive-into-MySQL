@@ -17,7 +17,7 @@ DELETE FROM <表名> [WHERE 子句] [ORDER BY 子句] [LIMIT 子句]
 *  `WHERE` 子句：可选项。表示为删除操作限定删除条件，若省略该子句，则代表删除该表中的所有行。
 *  `LIMIT` 子句：可选项。用于告知服务器在控制命令被返回到客户端前被删除行的最大值。
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 注意：在不使用 WHERE 条件的时候，将删除所有数据。
 {% endhint %}
 
