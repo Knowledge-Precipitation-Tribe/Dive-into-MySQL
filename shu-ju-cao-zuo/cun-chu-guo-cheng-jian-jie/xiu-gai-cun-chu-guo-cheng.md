@@ -2,7 +2,7 @@
 
 在实际开发过程中，业务需求修改的情况时有发生，所以修改 MySQL 中的存储过程是不可避免的。
 
- MySQL 中通过 ALTER PROCEDURE 语句来修改存储过程。本节将详细讲解修改存储过程的方法。
+ MySQL中通过 ALTER PROCEDURE 语句来修改存储过程。本节将详细讲解修改存储过程的方法。
 
  MySQL 中修改存储过程的语法格式如下：
 
@@ -23,7 +23,7 @@ ALTER PROCEDURE 存储过程名 [ 特征 ... ]
 
 ##  实例 1
 
- 下面修改存储过程 showstuscore 的定义，将读写权限改为 MODIFIES SQL DATA，并指明调用者可以执行，代码如下：
+下面修改存储过程 showstuscore 的定义，将读写权限改为 MODIFIES SQL DATA，并指明调用者可以执行，代码如下：
 
 ```text
 mysql> ALTER PROCEDURE showstuscore MODIFIES SQL DATA SQL SECURITY INVOKER;
@@ -49,7 +49,7 @@ collation_connection: gbk_chinese_ci
 1 row in set (0.00 sec)
 ```
 
- 结果显示，存储过程修改成功。从运行结果可以看到，访问数据的权限已经变成了 MODIFIES SQL DATA，安全类型也变成了 INVOKE。
+结果显示，存储过程修改成功。从运行结果可以看到，访问数据的权限已经变成了 MODIFIES SQL DATA，安全类型也变成了 INVOKE。
 
- 提示：ALTER PROCEDURE 语句用于修改存储过程的某些特征。如果要修改存储过程的内容，可以先删除原存储过程，再以相同的命名创建新的存储过程；如果要修改存储过程的名称，可以先删除原存储过程，再以不同的命名创建新的存储过程。
+提示：ALTER PROCEDURE 语句用于修改存储过程的某些特征。如果要修改存储过程的内容，可以先删除原存储过程，再以相同的命名创建新的存储过程；如果要修改存储过程的名称，可以先删除原存储过程，再以不同的命名创建新的存储过程。
 
