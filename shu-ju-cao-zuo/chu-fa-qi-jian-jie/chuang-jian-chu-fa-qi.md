@@ -48,7 +48,7 @@ CREATE TRIGGER <触发器名> < BEFORE | AFTER > <INSERT | UPDATE | DELETE > ON 
 
  另外，在 MySQL 中，若需要查看数据库中已有的触发器，则可以使用 SHOW TRIGGERS 语句。
 
-##  创建 BEFORE 类型触发器
+## 创建 BEFORE 类型触发器
 
 在 test\_db 数据库中，数据表 tb\_emp8 为员工信息表，包含 id、name、deptId 和 salary 字段，数据表 tb\_emp8 的表结构如下所示。
 
@@ -67,7 +67,7 @@ mysql> DESC tb_emp8;
 4 rows in set (0.05 sec)
 ```
 
- 【实例 1】创建一个名为 SumOfSalary 的触发器，触发的条件是向数据表 tb\_emp8 中插入数据之前，对新插入的 salary 字段值进行求和计算。输入的 SQL 语句和执行过程如下所示。
+【实例 1】创建一个名为 SumOfSalary 的触发器，触发的条件是向数据表 tb\_emp8 中插入数据之前，对新插入的 salary 字段值进行求和计算。输入的 SQL 语句和执行过程如下所示。
 
 ```text
 mysql> CREATE TRIGGER SumOfSalary
@@ -77,10 +77,10 @@ mysql> CREATE TRIGGER SumOfSalary
 Query OK, 0 rows affected (0.35 sec)
 ```
 
- 触发器 SumOfSalary 创建完成之后，向表 tb\_emp8 中插入记录时，定义的 sum 值由 0 变成了 1500，即插入值 1000 和 500 的和，如下所示。
+触发器 SumOfSalary 创建完成之后，向表 tb\_emp8 中插入记录时，定义的 sum 值由 0 变成了1500，即插入值 1000 和 500 的和，如下所示。
 
 ```text
-SET @sum=0;
+mysql> SET @sum=0;
 Query OK, 0 rows affected (0.05 sec)
 mysql> INSERT INTO tb_emp8
     -> VALUES(1,'A',1,1000),(2,'B',1,500);
@@ -97,7 +97,7 @@ mysql> SELECT @sum;
 
 ##  创建 AFTER 类型触发器
 
- 在 test\_db 数据库中，数据表 tb\_emp6 和 tb\_emp7 都为员工信息表，包含 id、name、deptId 和 salary 字段，数据表 tb\_emp6 和 tb\_emp7 的表结构如下所示。
+在 test\_db 数据库中，数据表 tb\_emp6 和 tb\_emp7 都为员工信息表，包含 id、name、deptId 和 salary 字段，数据表 tb\_emp6 和 tb\_emp7 的表结构如下所示。
 
 ```text
 mysql> SELECT * FROM tb_emp6;
