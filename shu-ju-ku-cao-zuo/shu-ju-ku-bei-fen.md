@@ -28,5 +28,5 @@ Query OK, 10 rows affected (0.06 sec)
 
  用记事本查看 MySQL 备份文件夹下的 file.txt 文件，内容如下图所示。
 
-![](../.gitbook/assets/image%20%28111%29.png)
+![](../.gitbook/assets/image%20%28115%29.png)
 

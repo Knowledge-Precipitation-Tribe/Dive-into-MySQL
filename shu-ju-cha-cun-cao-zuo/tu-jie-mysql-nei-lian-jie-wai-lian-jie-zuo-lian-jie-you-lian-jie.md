@@ -30,7 +30,7 @@ CREATE TABLE `b_table` (
 
 ### 表测试数据：
 
-![](../.gitbook/assets/image%20%28102%29.png)
+![](../.gitbook/assets/image%20%28106%29.png)
 
 ## 一、内连接
 
@@ -42,11 +42,11 @@ select * from a_table a inner join b_table b on a.a_id = b.b_id;
 
 执行结果：
 
-![](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/image%20%2878%29.png)
 
  说明：组合两个表中的记录，返回关联字段相符的记录，也就是返回两个表的交集（阴影）部分。
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 
 ## 二、左连接（左外连接）
 
@@ -58,7 +58,7 @@ select * from a_table a left join b_table b on a.a_id = b.b_id;
 
 执行结果：
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 说明：
 
@@ -66,7 +66,7 @@ left join 是left outer join的简写，它的全称是左外连接，是外连�
 
 左\(外\)连接，左表\(a\_table\)的记录将会全部表示出来，而右表\(b\_table\)只会显示符合搜索条件的记录。右表记录不足的地方均为NULL。
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
 ## 三、右连接（右外连接）
 

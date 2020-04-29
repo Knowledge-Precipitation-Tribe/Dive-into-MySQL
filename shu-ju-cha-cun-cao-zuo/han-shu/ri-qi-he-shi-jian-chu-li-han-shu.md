@@ -42,7 +42,7 @@ FROM orders
 WHERE Date(order_date) BETWEEN '2005=09-01' AND '2005-09-30';
 ```
 
-![](../../.gitbook/assets/image%20%28112%29.png)
+![](../../.gitbook/assets/image%20%28116%29.png)
 
 还有另外一种办法（一种不需要记住每个月中有多少天或不需要操心闰年2月的办法）：
 

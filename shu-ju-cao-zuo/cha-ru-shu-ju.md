@@ -68,7 +68,7 @@ course\_id是自增的，如果插入数据不指定course\_idMySQL会自动增�
 SELECT * FROM tb_courses;
 ```
 
-![](../.gitbook/assets/image%20%28123%29.png)
+![](../.gitbook/assets/image%20%28127%29.png)
 
  查询结果显示当前表内容为空，没有数据，接下来执行插入数据的操作，输入的 SQL 语句和执行过程如下所示。
 
@@ -79,7 +79,7 @@ INSERT INTO tb_course
     (1, 'NETWORK', 3, 'COMPUTER NETWORK');
 ```
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
  可以看到插入记录成功。在插入数据时，指定了 tb\_courses 表的所有字段，因此将为每一个字段插入新的值。
 
@@ -104,7 +104,7 @@ INSERT INTO tb_course
 INSERT INTO tb_course VALUES (3, 'Java', 4, 'Java EE');
 ```
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
  INSERT 语句中没有指定插入列表，只有一个值列表。在这种情况下，值列表为每一个字段列指定插入的值，并且这些值的顺序必须和 tb\_courses 表中字段定义的顺序相同。
 
@@ -123,7 +123,7 @@ INSERT INTO tb_course
     ('System', 3, 'Operation System');
 ```
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2862%29.png)
 
  可以看到插入记录成功。如查询结果显示，这里的 course\_id 字段自动添加了一个整数值 4。这时的 course\_id 字段为表的主键，不能为空，系统自动为该字段插入自增的序列值。在插入记录时，如果某些字段没有指定插入值，MySQL 将插入该字段定义时的默认值。
 

@@ -19,5 +19,5 @@ FROM products;
 WHERE vend_id = 1003;
 ```
 
-![](../../../.gitbook/assets/image%20%2839%29.png)
+![](../../../.gitbook/assets/image%20%2840%29.png)
 

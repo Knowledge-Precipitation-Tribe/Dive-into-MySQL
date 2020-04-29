@@ -28,7 +28,7 @@ UPDATE <表名> SET 字段1=值1 [,字段2=值2… ] [WHERE 子句 ] [ORDER BY �
 UPDATE tb_course_new SET course_grade=4;
 ```
 
-![](../.gitbook/assets/image%20%28125%29.png)
+![](../.gitbook/assets/image%20%28129%29.png)
 
 {% hint style="info" %}
 update语句需要加入where限定条件，否则会对整个表进行更新，操作不当容易导致数据丢失。

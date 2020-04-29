@@ -8,7 +8,7 @@ FROM vendors
 ORDER BY vend_name;
 ```
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 正如所见，Upper\(\)将文本转换为大写，因此本例子中每个供 应商都列出两次，第一次为vendors表中存储的值，第二次作 为列vend\_name\_upcase转换为大写。
 
@@ -16,7 +16,7 @@ ORDER BY vend_name;
 
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
-![](../../.gitbook/assets/image%20%28104%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 
 SOUNDEX是一个将任何文 本串转换为描述其语音表示的字母数字模式的算法。SOUNDEX考虑了类似 的发音字符和音节， 使得能对串进行发音比较而不是字母比较。 虽然 SOUNDEX 不是SQL概念， 但MySQL（就像多数DBMS一样）都提供对 SOUNDEX的支持。
 
@@ -38,5 +38,5 @@ FROM customers
 WHERE Soundex(cust_contact) = Soundex('Y.Lie');
 ```
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 

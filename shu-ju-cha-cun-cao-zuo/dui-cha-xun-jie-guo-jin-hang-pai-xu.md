@@ -28,7 +28,7 @@
 SELECT * FROM tb_students_info ORDER BY height;
 ```
 
-![](../.gitbook/assets/image%20%2873%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
  该语句通过指定 ORDER BY 子句，MySQL 对查询的 height 列的数据按数值的大小进行了升序排序。
 

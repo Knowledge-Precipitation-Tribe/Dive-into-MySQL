@@ -36,7 +36,7 @@ SELECT * FROM tb_students_info WHERE height=160;
 SELECT * FROM tb_students_info WHERE age<24;
 ```
 
-![](../.gitbook/assets/image%20%28114%29.png)
+![](../.gitbook/assets/image%20%28118%29.png)
 
  可以看到，查询结果中所有记录的 age 字段的值均小于 24 岁，而大于或等于 24 岁的记录没有被返回。
 
@@ -52,7 +52,7 @@ SELECT * FROM tb_students_info WHERE age<24;
 SELECT * FROM tb_students_info WHERE age>22 AND height<180;
 ```
 
-![](../.gitbook/assets/image%20%2866%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 > 注意：上例的 WHERE 子句中只包含一个 AND 语句，把两个过滤条件组合在一起，实际上可以添加多个 AND 过滤条件，增加条件的同时增加一个 AND 关键字。
 
@@ -115,5 +115,5 @@ SELECT * FROM tb_students_info WHERE login_data<'2016-01-01';
 SELECT * FROM tb_students_info WHERE login_data BETWEEN '2015-09-01' AND '2016-12-01';
 ```
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](../.gitbook/assets/image%20%28102%29.png)
 
