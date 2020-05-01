@@ -84,6 +84,7 @@
     * [SUM函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/sum-han-shu.md)
     * [聚集不同值](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/ju-ji-bu-tong-zhi.md)
     * [组合聚集函数](shu-ju-cha-cun-cao-zuo/han-shu/ju-ji-han-shu/zu-he-ju-ji-han-shu.md)
+  * [IF语句](shu-ju-cha-cun-cao-zuo/han-shu/if-yu-ju.md)
 * [分组查询](shu-ju-cha-cun-cao-zuo/fen-zu-cha-xun/README.md)
   * [指定过滤条件](shu-ju-cha-cun-cao-zuo/fen-zu-cha-xun/zhi-ding-guo-lv-tiao-jian.md)
 * [正则表达式查询](shu-ju-cha-cun-cao-zuo/zheng-ze-biao-da-shi-cha-xun.md)
