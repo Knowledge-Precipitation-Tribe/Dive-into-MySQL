@@ -2,7 +2,7 @@
 
 * [Dive-into-MySQL](README.md)
 * [下载与安装](xia-zai-yu-an-zhuang/README.md)
-  * [直接下载](xia-zai-yu-an-zhuang/zhi-jie-xia-zai.md)
+  * [直接安装](xia-zai-yu-an-zhuang/zhi-jie-xia-zai.md)
   * [Docker](xia-zai-yu-an-zhuang/docker.md)
 * [登陆MySQL数据库](deng-lu-mysql-shu-ju-ku.md)
 * [可视化工具](ke-shi-hua-gong-ju.md)
