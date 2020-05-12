@@ -13,13 +13,13 @@ SELECT <列名1，列名2 …> FROM <表名1> INNER JOIN <表名2> [ ON子句]
 *  `<列名1，列名2…>`：需要检索的列名。
 *  `<表名1><表名2>`：进行内连接的两张表的表名。
 
-内连接是系统默认的表连接，所以在 FROM 子句后可以省略 INNER 关键字，只用关键字 JOIN。使用内连接后，FROM 子句中的 ON 子句可用来设置连接表的条件。
+内连接是系统默认的表连接，所以在 FROM 子句后**可以省略 INNER 关键字**，只用关键字 JOIN。使用内连接后，FROM 子句中的 ON 子句可用来设置连接表的条件。
 
 在 FROM 子句中可以在多个表之间连续使用 INNER JOIN 或 JOIN，如此可以同时实现多个表的内连接。
 
 表 tb\_students\_info 和表 tb\_departments 都包含相同数据类型的字段 dept\_id，在两个表之间使用内连接查询。输入的 SQL 语句和执行结果如下所示。
 
-```text
+```sql
 mysql> SELECT id,name,age,dept_name
     -> FROM tb_students_info,tb_departments
     -> WHERE tb_students_info.dept_id=tb_departments.dept_id;
@@ -48,7 +48,7 @@ mysql> SELECT id,name,age,dept_name
 
 在 tb\_students\_info 表和 tb\_departments 表之间，使用 INNER JOIN 语法进行内连接查询，输入的 SQL 语句和执行结果如下所示。
 
-```text
+```sql
 mysql> SELECT id,name,age,dept_name
     -> FROM tb_students_info INNER JOIN tb_departments
     -> ON tb_students_info.dept_id=tb_departments.dept_id;
