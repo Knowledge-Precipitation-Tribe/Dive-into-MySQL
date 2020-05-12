@@ -12,7 +12,7 @@ CREATE DATABASE [IF NOT EXISTS] <数据库名> [[DEFAULT] CHARACTER SET <字符�
 CREATE DATABASE test_db
 ```
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../.gitbook/assets/image%20%2888%29.png)
 
 {% hint style="info" %}
 数据库的名称不能重复
@@ -20,7 +20,7 @@ CREATE DATABASE test_db
 
 使用`IF NOT EXISTS`来避免创建数据库错误。
 
-![](../.gitbook/assets/image%20%28126%29.png)
+![](../.gitbook/assets/image%20%28127%29.png)
 
 ### 创建数据库时指定数据集
 
@@ -28,7 +28,7 @@ CREATE DATABASE test_db
 CREATE DATABASE IF NOT EXISTS test_db_char DEFAULT CHARACTER SET utf8;
 ```
 
-![](../.gitbook/assets/image%20%2873%29.png)
+![](../.gitbook/assets/image%20%2874%29.png)
 
 可以使用`SHOW CREATE DATABASE`查看 test\_db\_char 数据库的定义声明。
 
@@ -36,5 +36,5 @@ CREATE DATABASE IF NOT EXISTS test_db_char DEFAULT CHARACTER SET utf8;
 SHOW CREATE DATABASE test_db_char;
 ```
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 

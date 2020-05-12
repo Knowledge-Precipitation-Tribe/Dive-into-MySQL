@@ -8,7 +8,7 @@ DROP TABLE [IF EXISTS] 表名1 [ ,表名2, 表名3 ...]
 
 我们test\_db数据库现在有两个数据表
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../.gitbook/assets/image%20%2885%29.png)
 
 现在删除tb\_emp1表。
 
@@ -16,5 +16,5 @@ DROP TABLE [IF EXISTS] 表名1 [ ,表名2, 表名3 ...]
 DROP TABLE tb_emp1;
 ```
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2824%29.png)
 

@@ -1,9 +1,5 @@
 # SELECT from Nobel Tutorial
 
-|  [Language:](https://sqlzoo.net/wiki/Special:MyLanguage/Project:Language_policy) | [**English**]()  • [日本語]() • [中文]() |
-| :--- | :--- |
-
-
 | nobel |  |  |
 | :--- | :--- | :--- |
 | yr | subject | winner |
@@ -25,73 +21,73 @@ nobel(yr, subject, winner)
 
 Using the `SELECT` statement.
 
-## Winners from 1950
+## 1. Winners from 1950
 
 Change the query shown so that it displays Nobel prizes for 1950.
 
-```text
+```sql
 SELECT yr, subject, winner
   FROM nobel
  WHERE yr = 1960
 ```
 
-```text
+```sql
 SELECT yr, subject, winner
   FROM nobel
  WHERE yr = 1950
 ```
 
-## 1962 Literature
+## 2. 1962 Literature
 
 Show who won the 1962 prize for Literature.
 
-```text
+```sql
 SELECT winner
   FROM nobel
  WHERE yr = 1960
    AND subject = 'Physics'
 ```
 
-```text
+```sql
 SELECT winner
   FROM nobel
  WHERE yr = 1962
    AND subject = 'Literature'
 ```
 
-## Albert Einstein
+## 3. Albert Einstein
 
 Show the year and subject that won 'Albert Einstein' his prize.
 
-```text
+```sql
 SELECT yr, subject
 FROM nobel
 WHERE winner = 'Albert Einstein'
 ```
 
-## Recent Peace Prizes
+## 4. Recent Peace Prizes
 
 Give the name of the 'Peace' winners since the year 2000, including 2000.
 
-```text
+```sql
 SELECT winner
 FROM nobel
 WHERE subject = 'Peace'
 AND yr >= 2000
 ```
 
-## Literature in the 1980's
+## 5. Literature in the 1980's
 
 Show all details \(**yr**, **subject**, **winner**\) of the Literature prize winners for 1980 to 1989 inclusive.
 
-```text
+```sql
 SELECT yr,subject,winner
 FROM nobel
 WHERE subject = 'Literature'
 AND yr BETWEEN 1980 AND 1989
 ```
 
-## Only Presidents
+## 6. Only Presidents
 
 Show all details of the presidential winners:
 
@@ -100,7 +96,7 @@ Show all details of the presidential winners:
 * Jimmy Carter
 * Barack Obama
 
-```text
+```sql
 SELECT * FROM nobel
  WHERE yr = 1970
   AND subject IN ('Cookery',
@@ -108,7 +104,7 @@ SELECT * FROM nobel
                   'Literature')
 ```
 
-```text
+```sql
 SELECT * FROM nobel
  WHERE  winner IN ('Theodore Roosevelt',
   'Woodrow Wilson',
@@ -116,42 +112,42 @@ SELECT * FROM nobel
   'Barack Obama')
 ```
 
-## John
+## 7. John
 
 Show the winners with first name John
 
-```text
+```sql
 SELECT winner FROM nobel
   WHERE winner LIKE 'John %'
 ```
 
-## Chemistry and Physics from different years
+## 8. Chemistry and Physics from different years
 
 Show the year, subject, and name of Physics winners for 1980 together with the Chemistry winners for 1984.
 
-```text
+```sql
 SELECT *
 FROM nobel
 WHERE (subject='physics' AND yr=1980) OR
       (subject='chemistry' AND yr=1984)
 ```
 
-## Exclude Chemists and Medics
+## 9. Exclude Chemists and Medics
 
 Show the year, subject, and name of winners for 1980 excluding Chemistry and Medicine
 
-```text
+```sql
 SELECT *
 FROM nobel
 WHERE yr=1980 AND
   subject NOT IN ('Chemistry','Medicine')
 ```
 
-## Early Medicine, Late Literature
+## 10. Early Medicine, Late Literature
 
 Show year, subject, and name of people who won a 'Medicine' prize in an early year \(before 1910, not including 1910\) together with winners of a 'Literature' prize in a later year \(after 2004, including 2004\)
 
-```text
+```sql
 SELECT *
 FROM nobel 
 WHERE (subject='Medicine' and yr <1910) OR
@@ -160,55 +156,55 @@ WHERE (subject='Medicine' and yr <1910) OR
 
 ## Harder Questions
 
-## Umlaut
+## 11. Umlaut
 
 Find all details of the prize won by PETER GRÜNBERG
 
-```text
+```sql
 SELECT *
 FROM nobel 
 WHERE winner in ('Peter Grünberg')
 ```
 
-## Apostrophe
+## 12. Apostrophe
 
 Find all details of the prize won by EUGENE O'NEILL
 
 You can't put a single quote in a quote string directly. You can use two single quotes within a quoted string.
 
-```text
+```sql
 SELECT *
 FROM nobel 
 WHERE winner in ('Eugene O''Neill')
 ```
 
-## Knights of the realm
+## 13. Knights of the realm
 
 Knights in order
 
 List the winners, year and subject where the winner starts with **Sir**. Show the the most recent first, then by name order.
 
-```text
+```sql
 SELECT winner, yr, subject
 FROM nobel 
 WHERE winner LIKE 'Sir%'
 ORDER BY yr DESC, winner
 ```
 
-## Chemistry and Physics last
+## 14. Chemistry and Physics last
 
 The expression **subject IN \('Chemistry','Physics'\)** can be used as a value - it will be **0** or **1**.
 
 Show the 1984 winners and subject ordered by subject and winner name; but list Chemistry and Physics last.
 
-```text
+```sql
 SELECT winner, subject, subject IN ('Physics','Chemistry')
   FROM nobel
  WHERE yr=1984
  ORDER BY subject,winner
 ```
 
-```text
+```sql
 select winner, subject
 from nobel
 where yr=1984 

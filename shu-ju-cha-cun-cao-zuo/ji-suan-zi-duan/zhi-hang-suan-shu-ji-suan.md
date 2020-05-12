@@ -8,7 +8,7 @@ FROM orderitems
 WHERE order_num = 20005;
 ```
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 item\_price列包含订单中每项物品的单价。如下汇总物品的价格（单价乘以订购数量）：
 
@@ -18,5 +18,5 @@ FROM orderitems
 WHERE order_num = 20005;
 ```
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 

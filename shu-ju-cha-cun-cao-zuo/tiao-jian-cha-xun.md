@@ -26,7 +26,7 @@ WHERE <查询条件> {<判定运算1>，<判定运算2>，…}
 SELECT * FROM tb_students_info WHERE height=160;
 ```
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
  该语句采用了简单的相等过滤，查询一个指定列 height 的具体值 160。
 
@@ -36,7 +36,7 @@ SELECT * FROM tb_students_info WHERE height=160;
 SELECT * FROM tb_students_info WHERE age<24;
 ```
 
-![](../.gitbook/assets/image%20%28118%29.png)
+![](../.gitbook/assets/image%20%28119%29.png)
 
  可以看到，查询结果中所有记录的 age 字段的值均小于 24 岁，而大于或等于 24 岁的记录没有被返回。
 
@@ -52,7 +52,7 @@ SELECT * FROM tb_students_info WHERE age<24;
 SELECT * FROM tb_students_info WHERE age>22 AND height<180;
 ```
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2869%29.png)
 
 > 注意：上例的 WHERE 子句中只包含一个 AND 语句，把两个过滤条件组合在一起，实际上可以添加多个 AND 过滤条件，增加条件的同时增加一个 AND 关键字。
 
@@ -93,7 +93,7 @@ SELECT * FROM tb_students_info WHERE age>22 AND height<180;
 SELECT * FROM tb_students_info WHERE name LIKE '%e%';
 ```
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
  由执行结果可以看出，该语句查询字符串中包含字母 e 的学生的姓名，只要名字中有字母 e，其前面或后面无论有多少个字符，都满足查询的条件。
 
@@ -115,5 +115,5 @@ SELECT * FROM tb_students_info WHERE login_data<'2016-01-01';
 SELECT * FROM tb_students_info WHERE login_data BETWEEN '2015-09-01' AND '2016-12-01';
 ```
 
-![](../.gitbook/assets/image%20%28102%29.png)
+![](../.gitbook/assets/image%20%28103%29.png)
 

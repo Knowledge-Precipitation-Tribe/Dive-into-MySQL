@@ -9,7 +9,7 @@ SELECT AVG(prod_price) AS avg_price
 FROM products;
 ```
 
-![](../../../.gitbook/assets/image%20%2821%29.png)
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 AVG\(\)也可以用来确定特定列或行的平均值。下面的例子返回特定供应商所提供产品的平均价格：
 
@@ -19,5 +19,5 @@ FROM products;
 WHERE vend_id = 1003;
 ```
 
-![](../../../.gitbook/assets/image%20%2840%29.png)
+![](../../../.gitbook/assets/image%20%2841%29.png)
 

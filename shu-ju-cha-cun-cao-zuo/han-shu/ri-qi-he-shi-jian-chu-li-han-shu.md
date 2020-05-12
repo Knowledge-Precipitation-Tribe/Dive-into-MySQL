@@ -18,7 +18,7 @@ FROM orders
 WHERE order_date = '2005-09-01';
 ```
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 但是， 使用 WHERE order_date = '2005-09-01'可靠吗？ order_ date的数据类型为 datetime。这种类型存储日期及时间值。样例表中的值全都具有时间值00:00:00， 但实际中很可能并不总是这样。 如果用当前日期和时间存储订单日期（因此你不仅知道订单日期， 还知道下订单当天的时间 ），怎么办 ？比如 ，存储的order\_date 值为 2005-09-01 11:30:05， 则 WHERE order\_date = '2005-09-01'失败。 即使给出具有该日期的一行，也不会把它检索出来，因为 WHERE匹配失败。
 
@@ -42,7 +42,7 @@ FROM orders
 WHERE Date(order_date) BETWEEN '2005=09-01' AND '2005-09-30';
 ```
 
-![](../../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/image%20%28117%29.png)
 
 还有另外一种办法（一种不需要记住每个月中有多少天或不需要操心闰年2月的办法）：
 
