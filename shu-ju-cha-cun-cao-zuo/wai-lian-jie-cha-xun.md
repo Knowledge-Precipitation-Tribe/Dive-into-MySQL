@@ -10,7 +10,7 @@ MySQL中内连接是在交叉连接的结果集上返回满足条件的记录；
 
 在 tb\_students\_info 表和 tb\_departments 表中查询所有学生，包括没有学院的学生，输入的 SQL 语句和执行结果如下所示。
 
-```text
+```sql
 mysql> SELECT name,dept_name
     -> FROM tb_students_info s
     -> LEFT OUTER JOIN tb_departments d
@@ -38,7 +38,7 @@ mysql> SELECT name,dept_name
 
 在 tb\_students\_info 表和 tb\_departments 表中查询所有学院，包括没有学生的学院，输入的 SQL 语句和执行结果如下所示。
 
-```text
+```sql
 mysql> SELECT name,dept_name
     -> FROM tb_students_info s
     -> RIGHT OUTER JOIN tb_departments d
