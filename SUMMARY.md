@@ -6,6 +6,13 @@
   * [Docker](xia-zai-yu-an-zhuang/docker.md)
 * [登陆MySQL数据库](deng-lu-mysql-shu-ju-ku.md)
 * [可视化工具](ke-shi-hua-gong-ju.md)
+* [MySQL练习](mysql-lian-xi/README.md)
+  * [力扣](mysql-lian-xi/li-kou.md)
+  * [SQLZoo](mysql-lian-xi/sqlzoo/README.md)
+    * [SELECT basics](mysql-lian-xi/sqlzoo/untitled-1.md)
+    * [SELECT from WORLD Tutorial](mysql-lian-xi/sqlzoo/untitled-2.md)
+    * [SELECT from Nobel Tutorial](mysql-lian-xi/sqlzoo/untitled-3.md)
+    * [SELECT within SELECT Tutorial](mysql-lian-xi/sqlzoo/untitled.md)
 
 ## 数据库操作
 
