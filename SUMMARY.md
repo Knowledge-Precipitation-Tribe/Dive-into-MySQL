@@ -13,6 +13,7 @@
     * [SELECT from WORLD Tutorial](mysql-lian-xi/sqlzoo/untitled-2.md)
     * [SELECT from Nobel Tutorial](mysql-lian-xi/sqlzoo/untitled-3.md)
     * [SELECT within SELECT Tutorial](mysql-lian-xi/sqlzoo/untitled.md)
+    * [SUM and COUNT](mysql-lian-xi/sqlzoo/untitled-4.md)
 
 ## 数据库操作
 
