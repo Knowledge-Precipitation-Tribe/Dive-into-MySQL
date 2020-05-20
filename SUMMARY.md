@@ -14,6 +14,7 @@
     * [SELECT from Nobel Tutorial](mysql-lian-xi/sqlzoo/untitled-3.md)
     * [SELECT within SELECT Tutorial](mysql-lian-xi/sqlzoo/untitled.md)
     * [SUM and COUNT](mysql-lian-xi/sqlzoo/untitled-4.md)
+    * [The JOIN operation](mysql-lian-xi/sqlzoo/untitled-5.md)
 
 ## 数据库操作
 
