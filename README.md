@@ -26,3 +26,5 @@ description: 动手学MySQL
 
 \[3\] MySQL教程：[MySQL数据库学习宝典（从入门到精通）](http://c.biancheng.net/mysql/)
 
+\[4\] [cystanford](https://github.com/cystanford)：[SQL-XMind](https://github.com/cystanford/SQL-XMind)
+
