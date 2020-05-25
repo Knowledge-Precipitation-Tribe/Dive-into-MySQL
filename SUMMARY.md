@@ -15,6 +15,7 @@
     * [SELECT within SELECT Tutorial](mysql-lian-xi/sqlzoo/untitled.md)
     * [SUM and COUNT](mysql-lian-xi/sqlzoo/untitled-4.md)
     * [The JOIN operation](mysql-lian-xi/sqlzoo/untitled-5.md)
+    * [More JOIN operations](mysql-lian-xi/sqlzoo/untitled-6.md)
 
 ## 数据库操作
 
