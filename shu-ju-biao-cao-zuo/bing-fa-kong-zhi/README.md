@@ -123,7 +123,9 @@ SET SESSION binlog_format = 'ROW';（或者是MIXED）
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>事务B修改id=1的数据提交之后，事务A同样的查询，后一次和前一次的结果不一样，这就是**不可重读**（重新读取产生的结果不一样）。这就很可能带来一些问题，那么我们来看看在RR级别中MySQL的表现：
+</table>
+
+事务B修改id=1的数据提交之后，事务A同样的查询，后一次和前一次的结果不一样，这就是**不可重读**（重新读取产生的结果不一样）。这就很可能带来一些问题，那么我们来看看在RR级别中MySQL的表现：
 
 <table>
   <thead>
@@ -184,7 +186,9 @@ SET SESSION binlog_format = 'ROW';（或者是MIXED）
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>我们注意到，当teacher\_id=1时，事务A先做了一次读取，事务B中间修改了id=1的数据，并commit之后，事务A第二次读到的数据和第一次完全相同。所以说它是可重读的。那么MySQL是怎么做到的呢？
+</table>
+
+我们注意到，当teacher\_id=1时，事务A先做了一次读取，事务B中间修改了id=1的数据，并commit之后，事务A第二次读到的数据和第一次完全相同。所以说它是可重读的。那么MySQL是怎么做到的呢？
 
 内容请见：[MVCC](mvcc.md#mvcc-zai-mysql-de-innodb-zhong-de-shi-xian)
 

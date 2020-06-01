@@ -16,6 +16,8 @@
     * [SUM and COUNT](mysql-lian-xi/sqlzoo/untitled-4.md)
     * [The JOIN operation](mysql-lian-xi/sqlzoo/untitled-5.md)
     * [More JOIN operations](mysql-lian-xi/sqlzoo/untitled-6.md)
+    * [Using Null](mysql-lian-xi/sqlzoo/using-null.md)
+    * [Self join](mysql-lian-xi/sqlzoo/self-join.md)
 
 ## 数据库操作
 

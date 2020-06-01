@@ -49,7 +49,9 @@ Next-Key锁是行锁和GAP（间隙锁）的合并，行锁上文已经介绍了
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>### RR级别：
+</table>
+
+### RR级别：
 
 <table>
   <thead>
@@ -98,7 +100,9 @@ Next-Key锁是行锁和GAP（间隙锁）的合并，行锁上文已经介绍了
       <td style="text-align:left">&#x4E8B;&#x52A1;Acommit&#x540E;&#xFF0C;&#x4E8B;&#x52A1;B&#x7684;insert&#x6267;&#x884C;&#x3002;</td>
     </tr>
   </tbody>
-</table>通过对比我们可以发现，在RC级别中，事务A修改了所有teacher\_id=30的数据，但是当事务Binsert进新数据后，事务A发现莫名其妙多了一行teacher\_id=30的数据，而且没有被之前的update语句所修改，这就是“当前读”的幻读。
+</table>
+
+通过对比我们可以发现，在RC级别中，事务A修改了所有teacher\_id=30的数据，但是当事务Binsert进新数据后，事务A发现莫名其妙多了一行teacher\_id=30的数据，而且没有被之前的update语句所修改，这就是“当前读”的幻读。
 
 RR级别中，事务A在update后加锁，事务B无法插入新数据，这样事务A在update前后读的数据保持一致，避免了幻读。这个锁，就是Gap锁。
 
@@ -170,7 +174,9 @@ update class\_teacher set class\_name=‘初三四班’ where teacher\_id=30;�
       <td style="text-align:left"></td>
     </tr>
   </tbody>
-</table>update的teacher\_id=20是在\(5，30\]区间，即使没有修改任何数据，Innodb也会在这个区间加gap锁，而其它区间不会影响，事务C正常插入。
+</table>
+
+update的teacher\_id=20是在\(5，30\]区间，即使没有修改任何数据，Innodb也会在这个区间加gap锁，而其它区间不会影响，事务C正常插入。
 
 如果使用的是没有索引的字段，比如update class\_teacher set teacher\_id=7 where class\_name=‘初三八班（即使没有匹配到任何数据）’,那么会给全表加入gap锁。同时，它不能像上文中行锁一样经过MySQL Server过滤自动解除不满足条件的锁，因为没有索引，则这些字段也就没有排序，也就没有区间。除非该事务提交，否则其它事务无法插入任何数据。
 
