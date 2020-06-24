@@ -19,6 +19,11 @@
     * [Using Null](mysql-lian-xi/sqlzoo/using-null.md)
     * [Self join](mysql-lian-xi/sqlzoo/self-join.md)
 
+## 基准测试
+
+* [基准测试](ji-zhun-ce-shi/ji-zhun-ce-shi.md)
+* [基准测试工具](ji-zhun-ce-shi/ji-zhun-ce-shi-gong-ju.md)
+
 ## 数据库操作
 
 * [创建数据库](shu-ju-ku-cao-zuo/chuang-jian-shu-ju-ku.md)
