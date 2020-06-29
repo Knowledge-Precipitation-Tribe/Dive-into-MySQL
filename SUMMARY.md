@@ -10,6 +10,7 @@
   * [力扣](mysql-lian-xi/li-kou/README.md)
     * [组合两个表](mysql-lian-xi/li-kou/zu-he-liang-ge-biao.md)
     * [第二高的薪水](mysql-lian-xi/li-kou/di-er-gao-de-xin-shui.md)
+    * [第n高的薪水](mysql-lian-xi/li-kou/dingao-de-xin-shui.md)
   * [SQLZoo](mysql-lian-xi/sqlzoo/README.md)
     * [SELECT basics](mysql-lian-xi/sqlzoo/untitled-1.md)
     * [SELECT from WORLD Tutorial](mysql-lian-xi/sqlzoo/untitled-2.md)
