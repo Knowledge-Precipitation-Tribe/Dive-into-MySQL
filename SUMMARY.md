@@ -19,10 +19,12 @@
     * [Using Null](mysql-lian-xi/sqlzoo/using-null.md)
     * [Self join](mysql-lian-xi/sqlzoo/self-join.md)
 
-## 基准测试
+## 基准测试与性能分析
 
-* [基准测试](ji-zhun-ce-shi/ji-zhun-ce-shi.md)
-* [基准测试工具](ji-zhun-ce-shi/ji-zhun-ce-shi-gong-ju.md)
+* [基准测试](ji-zhun-ce-shi-yu-xing-neng-fen-xi/ji-zhun-ce-shi.md)
+* [基准测试工具](ji-zhun-ce-shi-yu-xing-neng-fen-xi/ji-zhun-ce-shi-gong-ju.md)
+* [服务器性能](ji-zhun-ce-shi-yu-xing-neng-fen-xi/fu-wu-qi-xing-neng.md)
+* [服务器优化](ji-zhun-ce-shi-yu-xing-neng-fen-xi/fu-wu-qi-you-hua.md)
 
 ## 数据库操作
 
