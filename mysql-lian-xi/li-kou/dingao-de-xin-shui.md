@@ -29,18 +29,18 @@ insert into Employee (Id, Salary) values ('3', '300')
 ```sql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
+    SET N := N-1;
   RETURN (
       # Write your MySQL query statement below.
       SELECT 
-          DISTINCT salary 
+            salary
       FROM 
-          (SELECT 
-                salary, @r:=IF(@p=salary, @r, @r+1) AS rnk,  @p:= salary 
-            FROM  
-                employee, (SELECT @r:=0, @p:=NULL)init 
-            ORDER BY 
-                salary DESC) tmp
-      WHERE rnk = N
+            employee
+      GROUP BY 
+            salary
+      ORDER BY 
+            salary DESC
+      LIMIT N, 1
   );
 END
 ```
