@@ -43,6 +43,7 @@
 * [存储引擎](shu-ju-ku-cao-zuo/cun-chu-yin-qing/README.md)
   * [MySQL 5.7 支持的存储引擎](shu-ju-ku-cao-zuo/cun-chu-yin-qing/mysql-5.7-zhi-chi-de-cun-chu-yin-qing.md)
   * [如何选择 MySQL 存储引擎](shu-ju-ku-cao-zuo/cun-chu-yin-qing/ru-he-xuan-ze-mysql-cun-chu-yin-qing.md)
+  * [Innodb与MyIASM](shu-ju-ku-cao-zuo/cun-chu-yin-qing/innodb-yu-myiasm.md)
 * [用户操作](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/README.md)
   * [创建用户](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/chuang-jian-yong-hu.md)
   * [修改用户](shu-ju-ku-cao-zuo/yong-hu-cao-zuo/xiu-gai-yong-hu.md)
