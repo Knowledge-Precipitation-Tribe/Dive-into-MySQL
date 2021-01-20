@@ -53,6 +53,7 @@
 * [全球化和本地化](shu-ju-ku-cao-zuo/quan-qiu-hua-he-ben-di-hua.md)
 * [数据库备份](shu-ju-ku-cao-zuo/shu-ju-ku-bei-fen.md)
 * [数据库恢复](shu-ju-ku-cao-zuo/shu-ju-ku-hui-fu.md)
+* [连接池](shu-ju-ku-cao-zuo/lian-jie-chi.md)
 
 ## 数据类型
 
