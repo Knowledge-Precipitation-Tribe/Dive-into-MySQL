@@ -21,6 +21,10 @@
     * [More JOIN operations](mysql-lian-xi/sqlzoo/untitled-6.md)
     * [Using Null](mysql-lian-xi/sqlzoo/using-null.md)
     * [Self join](mysql-lian-xi/sqlzoo/self-join.md)
+* [范式](fan-shi/README.md)
+  * [第一范式](fan-shi/di-yi-fan-shi.md)
+  * [第二范式](fan-shi/di-er-fan-shi.md)
+  * [第三范式](fan-shi/di-san-fan-shi.md)
 
 ## 基准测试与性能分析
 
@@ -134,6 +138,7 @@
 * [事务](shu-ju-cao-zuo/shi-wu/README.md)
   * [并发事务带来的问题](shu-ju-cao-zuo/shi-wu/bing-fa-shi-wu-dai-lai-de-wen-ti.md)
   * [事务隔离级别](shu-ju-cao-zuo/shi-wu/shi-wu-ge-li-ji-bie.md)
+  * [分布式事务](shu-ju-cao-zuo/shi-wu/fen-bu-shi-shi-wu.md)
 
 ---
 
