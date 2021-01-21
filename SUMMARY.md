@@ -137,6 +137,7 @@
 * [索引简介](shu-ju-cao-zuo/suo-yin-jian-jie/README.md)
   * [创建索引](shu-ju-cao-zuo/suo-yin-jian-jie/chuang-jian-suo-yin.md)
   * [修改和删除索引](shu-ju-cao-zuo/suo-yin-jian-jie/xiu-gai-he-shan-chu-suo-yin.md)
+  * [索引的使用场景](shu-ju-cao-zuo/suo-yin-jian-jie/suo-yin-de-shi-yong-chang-jing.md)
 * [事务](shu-ju-cao-zuo/shi-wu/README.md)
   * [并发事务带来的问题](shu-ju-cao-zuo/shi-wu/bing-fa-shi-wu-dai-lai-de-wen-ti.md)
   * [事务隔离级别](shu-ju-cao-zuo/shi-wu/shi-wu-ge-li-ji-bie.md)
@@ -144,6 +145,8 @@
 
 ---
 
-* [常见问题](chang-jian-wen-ti.md)
+* [mysql相关](chang-jian-wen-ti/README.md)
+  * [权限](chang-jian-wen-ti/quan-xian.md)
+  * [binlog](chang-jian-wen-ti/binlog.md)
 * [参考文献](can-kao-wen-xian.md)
 
