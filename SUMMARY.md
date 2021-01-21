@@ -149,5 +149,6 @@
 * [mysql相关](chang-jian-wen-ti/README.md)
   * [权限](chang-jian-wen-ti/quan-xian.md)
   * [binlog](chang-jian-wen-ti/binlog.md)
+  * [MySQL Binlog介绍](chang-jian-wen-ti/mysql-binlog-jie-shao.md)
 * [参考文献](can-kao-wen-xian.md)
 

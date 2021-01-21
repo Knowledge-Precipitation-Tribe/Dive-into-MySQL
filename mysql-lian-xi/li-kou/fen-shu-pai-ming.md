@@ -34,18 +34,9 @@ insert into Scores (Id, Score) values ('6', '3.65')
 ## 题解
 
 ```sql
-# 不用函数
-SELECT
-     s1.Score,
-     count(DISTINCT s2.Score) `Rank`
- FROM Scores s1, Scores s2
- WHERE s1.Score <= s2.Score
- GROUP BY s1.Id
- ORDER BY `Rank`
-
-# rank函数
-SELECT Score, dense_rank() over(ORDER BY Score DESC) AS `Rank` FROM Scores
+SELECT Score, dense_rank() over (ORDER BY Score DESC) AS `Rank`
+FROM Scores
 ```
 
-
+{% embed url="https://leetcode-cn.com/problems/rank-scores/solution/tu-jie-sqlmian-shi-ti-jing-dian-pai-ming-wen-ti-by/" %}
 
