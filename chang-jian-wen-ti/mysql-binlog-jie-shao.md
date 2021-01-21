@@ -323,34 +323,7 @@ binlog 事件的结构主要有3个版本：
 +=====================================+
 ```
 
-如果事件头的长度是 `x` 字节，那么事件体的长度为 `(event_length - x)` 字节；设事件体中 `fixed part` 的长度为 `y` 字节，那么 `variable part` 的长度为 `(event_length - (x + y))` 字节
-
-## Binlog Event 简要分析 <a id="Binlog-Event-&#x7B80;&#x8981;&#x5206;&#x6790;"></a>
-
-从一个最简单的实例来分析Event，包括创建表，插入数据，更新数据，删除数据；
-
-```text
-CREATE TABLE `test` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `age` int(11) DEFAULT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-insert into test values(1,22,"小旋锋");
-update test set name='whirly' where id=1;
-delete from test where id=1;
-```
-
-日志格式为`STATEMENT`，查看所有的Event
-
-![STATEMENT&#x683C;&#x5F0F;&#x4E0B;create&#x3001;insert&#x3001;update&#x3001;delete&#x64CD;&#x4F5C;&#x4EA7;&#x751F;&#x7684;binlog&#x4E8B;&#x4EF6;](http://image.laijianfeng.org/20190309_185754.png)
-
-日志格式为`ROW`时是下面这样，可以发现又有一些不同
-
-![ROW&#x683C;&#x5F0F;&#x4E0B;create&#x3001;insert&#x3001;update&#x3001;delete&#x64CD;&#x4F5C;&#x4EA7;&#x751F;&#x7684;binlog&#x4E8B;&#x4EF6;](http://image.laijianfeng.org/20190309_191336.png)
-
-关于Event的分析，有需要可以查看参考文档进行推算。
+如果事件头的长度是 `x` 字节，那么事件体的长度为 `(event_length - x)` 字节；设事件体中 `fixed part` 的长度为 `y` 字节，那么 `variable part` 的长度为 `(event_length - (x + y))` 字节。
 
 ## 参考文档 <a id="&#x53C2;&#x8003;&#x6587;&#x6863;"></a>
 
