@@ -192,7 +192,7 @@ mysql> SHOW INDEX FROM course FROM mytest;
 
  【实例 3】使用 SHOW INDEX 语句查看表 tb\_stu\_info2 的索引信息，输入的 SQL 语句和执行结果如下所示。
 
-```text
+```sql
 mysql> SHOW INDEX FROM tb_stu_info2\G
 *************************** 1. row ***************************
         Table: tb_stu_info2

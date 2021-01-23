@@ -33,7 +33,7 @@ DROP INDEX <索引名> ON <表名>
 
  【实例 1】删除表 tb\_stu\_info 中的索引，输入的 SQL 语句和执行结果如下所示。
 
-```text
+```sql
 mysql> DROP INDEX height
     -> ON tb_stu_info;
 Query OK, 0 rows affected (0.27 sec)
@@ -53,7 +53,7 @@ Create Table: CREATE TABLE `tb_stu_info` (
 
  【实例 2】删除表 tb\_stu\_info2 中名称为 id 的索引，输入的 SQL 语句和执行结果如下所示。
 
-```text
+```sql
 mysql> ALTER TABLE tb_stu_info2
     -> DROP INDEX height;
 Query OK, 0 rows affected (0.13 sec)
