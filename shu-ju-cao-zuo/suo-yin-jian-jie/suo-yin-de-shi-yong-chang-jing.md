@@ -6,7 +6,7 @@
 
 可以使用EXPLAIN来解释语句
 
-![](../../.gitbook/assets/image%20%28146%29.png)
+![](../../.gitbook/assets/image%20%28149%29.png)
 
 ## order by
 
