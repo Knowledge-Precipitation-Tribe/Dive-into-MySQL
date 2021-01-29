@@ -13,7 +13,7 @@
     * [第n高的薪水](mysql-lian-xi/li-kou/dingao-de-xin-shui.md)
     * [分数排名](mysql-lian-xi/li-kou/fen-shu-pai-ming.md)
     * [连续出现的数字](mysql-lian-xi/li-kou/lian-xu-chu-xian-de-shu-zi.md)
-    * [超过精力收入的员工](mysql-lian-xi/li-kou/chao-guo-jing-li-shou-ru-de-yuan-gong.md)
+    * [超过经理收入的员工](mysql-lian-xi/li-kou/chao-guo-jing-li-shou-ru-de-yuan-gong.md)
   * [SQLZoo](mysql-lian-xi/sqlzoo/README.md)
     * [SELECT basics](mysql-lian-xi/sqlzoo/untitled-1.md)
     * [SELECT from WORLD Tutorial](mysql-lian-xi/sqlzoo/untitled-2.md)
