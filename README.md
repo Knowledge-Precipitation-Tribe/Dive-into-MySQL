@@ -32,6 +32,13 @@ description: 动手学MySQL
 
 在数据库领域中，这种文件称为表。表是一种结构化的文件，可用来存储某种特定类型的数据。表可以保存顾客清单、产品目录，或者其他信息清单。
 
+## SQL语句
+
+* DDL：数据定义语言DDL（Data Ddefinition Language）CREATE，DROP，ALTER，主要为以上操作 即对逻辑结构等有操作的，其中包括表结构，视图和索引。
+* DQL： 数据查询语言DQL（Data Query Language）SELECT，这个较为好理解 即查询操作，以select关键字。各种简单查询，连接查询等 都属于DQL。
+* DML：数据操纵语言DML（Data Manipulation Language）INSERT，UPDATE，DELETE，主要为以上操作 即对数据进行操作的，对应上面所说的查询操作 DQL与DML共同构建了多数初级程序员常用的增删改查操作。而查询是较为特殊的一种 被划分到DQL中。
+* DCL：数据控制功能DCL（Data Control Language）GRANT，REVOKE，COMMIT，ROLLBACK，主要为以上操作 即对数据库安全性完整性等有操作的，可以简单的理解为权限控制等。
+
 ## MySQL逻辑架构
 
 ![](.gitbook/assets/image%20%28134%29.png)
