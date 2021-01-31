@@ -14,6 +14,7 @@
     * [分数排名](mysql-lian-xi/li-kou/fen-shu-pai-ming.md)
     * [连续出现的数字](mysql-lian-xi/li-kou/lian-xu-chu-xian-de-shu-zi.md)
     * [超过经理收入的员工](mysql-lian-xi/li-kou/chao-guo-jing-li-shou-ru-de-yuan-gong.md)
+    * [查找重复的电子邮箱](mysql-lian-xi/li-kou/cha-zhao-zhong-fu-de-dian-zi-you-xiang.md)
   * [SQLZoo](mysql-lian-xi/sqlzoo/README.md)
     * [SELECT basics](mysql-lian-xi/sqlzoo/untitled-1.md)
     * [SELECT from WORLD Tutorial](mysql-lian-xi/sqlzoo/untitled-2.md)
