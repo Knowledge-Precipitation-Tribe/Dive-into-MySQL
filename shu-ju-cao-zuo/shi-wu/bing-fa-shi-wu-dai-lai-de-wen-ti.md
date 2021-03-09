@@ -176,7 +176,7 @@ mysql> select * from ttd;
 注意在InnoDB引擎下，RR级别的事务隔离已经解决了幻读问题，使用的是[Next-key](../../shu-ju-biao-cao-zuo/bing-fa-kong-zhi/nextkey-suo.md)锁。
 {% endhint %}
 
-## **不可重复度和幻读区别**
+## **不可重复读和幻读区别**
 
 不可重复读的重点是修改，幻读的重点在于新增或者删除。
 
